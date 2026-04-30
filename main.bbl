@@ -1,0 +1,190 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{ZhouChiJunGaoDongTaiMuBiaoLanJieDanZhiDaoYuKongZhiQianYanJiShuZhanWang2022}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=c70b9c6d47a58a4f324a449658463596}{%
+           family={{周池军}},
+           familyi={周\bibinitperiod}}}%
+        {{hash=ab2a1e737f5b188c5284083857ed9299}{%
+           family={{邵雷}},
+           familyi={邵\bibinitperiod}}}%
+        {{hash=992d9c5d421abf393c1f06b720091e98}{%
+           family={{骆长鑫}},
+           familyi={骆\bibinitperiod}}}%
+        {{hash=11cd7a6e58ab214bbc53580373532fa4}{%
+           family={{李明杰}},
+           familyi={李\bibinitperiod}}}%
+        {{hash=90f86c1f5a59e8a7068046346edd4cd0}{%
+           family={{雷虎民}},
+           familyi={雷\bibinitperiod}}}%
+      }
+      \name{namea}{5}{}{%
+        {{hash=c70b9c6d47a58a4f324a449658463596}{%
+           family={{周池军}},
+           familyi={周\bibinitperiod}}}%
+        {{hash=ab2a1e737f5b188c5284083857ed9299}{%
+           family={{邵雷}},
+           familyi={邵\bibinitperiod}}}%
+        {{hash=992d9c5d421abf393c1f06b720091e98}{%
+           family={{骆长鑫}},
+           familyi={骆\bibinitperiod}}}%
+        {{hash=11cd7a6e58ab214bbc53580373532fa4}{%
+           family={{李明杰}},
+           familyi={李\bibinitperiod}}}%
+        {{hash=90f86c1f5a59e8a7068046346edd4cd0}{%
+           family={{雷虎民}},
+           familyi={雷\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \strng{namehash}{d54cdd33ba56f127babe145319c77190}
+      \strng{fullhash}{6da9d88412862dfa1fed7fb44fe54344}
+      \strng{fullhashraw}{6da9d88412862dfa1fed7fb44fe54344}
+      \strng{bibnamehash}{5f974a9cba152788929d2ddd126d8262}
+      \strng{authorbibnamehash}{5f974a9cba152788929d2ddd126d8262}
+      \strng{authornamehash}{d54cdd33ba56f127babe145319c77190}
+      \strng{authorfullhash}{6da9d88412862dfa1fed7fb44fe54344}
+      \strng{authorfullhashraw}{6da9d88412862dfa1fed7fb44fe54344}
+      \strng{nameabibnamehash}{5f974a9cba152788929d2ddd126d8262}
+      \strng{nameanamehash}{d54cdd33ba56f127babe145319c77190}
+      \strng{nameafullhash}{6da9d88412862dfa1fed7fb44fe54344}
+      \strng{nameafullhashraw}{6da9d88412862dfa1fed7fb44fe54344}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{临近空间高动态飞行器武器化进程日益加速，给国家空天安全带来了新的威胁和挑战。临近空间防御作战是应对高动态目标威胁的有效手段，但是对拦截弹的制导控制技术提出了更高的要求。针对临近空间防御作战背景和需求，聚焦拦截弹制导控制过程中涉及的目标轨迹预测、中制导弹道生成与修正、中末制导交接班、精确末制导以及高性能控制5项前沿技术，梳理总结了相关研究的最新进展情况，分析了现有研究的局限性，展望了相关技术的发展方向并给出了可行的研究思路。}
+      \field{annotation}{Fund: 国家自然科学基金（61873278;62173339）；}
+      \field{journaltitle}{空天技术}
+      \field{langid}{chinese}
+      \field{languageid}{chinese}
+      \field{lansortorder}{1}
+      \field{number}{2}
+      \field{title}{高动态目标拦截弹制导与控制前沿技术展望}
+      \field{urlday}{30}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{usera}{J}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{61\bibrangedash 74}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.16338/j.issn.2097-0714.20220614
+      \endverb
+      \verb{file}
+      \verb H:\Literature\Official\storage\LQU99THE\周池军 等 - 2022 - 高动态目标拦截弹制导与控制前沿技术展望.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.16338/j.issn.2097-0714.20220614
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.16338/j.issn.2097-0714.20220614
+      \endverb
+      \keyw{/unread,复合控制,高动态目标,轨迹预测,末制导,中末制导交接班,中制导}
+    \endentry
+    \entry{WangSongFanGaoChaoShengSuDaoDanWangGeHuaLanJieZhanFaChuBuYanJiu2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=e4b9724fd4309e9a9f2de3ee72ee0a81}{%
+           family={{王松}},
+           familyi={王\bibinitperiod}}}%
+        {{hash=de27c0d6c4d1c9e59ced365d86f4ee68}{%
+           family={{邵圣祥}},
+           familyi={邵\bibinitperiod}}}%
+        {{hash=1ae19aa89e782facfb753e51bf1f748c}{%
+           family={{栾晓文}},
+           familyi={栾\bibinitperiod}}}%
+        {{hash=39cf4409233a72569d241e4f53475294}{%
+           family={{张帅钦}},
+           familyi={张\bibinitperiod}}}%
+      }
+      \name{namea}{4}{}{%
+        {{hash=e4b9724fd4309e9a9f2de3ee72ee0a81}{%
+           family={{王松}},
+           familyi={王\bibinitperiod}}}%
+        {{hash=de27c0d6c4d1c9e59ced365d86f4ee68}{%
+           family={{邵圣祥}},
+           familyi={邵\bibinitperiod}}}%
+        {{hash=1ae19aa89e782facfb753e51bf1f748c}{%
+           family={{栾晓文}},
+           familyi={栾\bibinitperiod}}}%
+        {{hash=39cf4409233a72569d241e4f53475294}{%
+           family={{张帅钦}},
+           familyi={张\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \strng{namehash}{ce0c13b268aeabf49f71aeeaa615831e}
+      \strng{fullhash}{649fa20144f6485837b1281a7b59c88b}
+      \strng{fullhashraw}{649fa20144f6485837b1281a7b59c88b}
+      \strng{bibnamehash}{4afff9daa62856e8f63d30370b177654}
+      \strng{authorbibnamehash}{4afff9daa62856e8f63d30370b177654}
+      \strng{authornamehash}{ce0c13b268aeabf49f71aeeaa615831e}
+      \strng{authorfullhash}{649fa20144f6485837b1281a7b59c88b}
+      \strng{authorfullhashraw}{649fa20144f6485837b1281a7b59c88b}
+      \strng{nameabibnamehash}{4afff9daa62856e8f63d30370b177654}
+      \strng{nameanamehash}{ce0c13b268aeabf49f71aeeaa615831e}
+      \strng{nameafullhash}{649fa20144f6485837b1281a7b59c88b}
+      \strng{nameafullhashraw}{649fa20144f6485837b1281a7b59c88b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{高超声速导弹已成为大国博弈的尖端武器，对现有导弹防御系统造成了严重冲击。为应对高超声速导弹威胁，提出了一种分布式网格化拦截战法，有助于实现从分层防御到分布式防御的创新发展。该战法具有分布式作战、弹性作战的优势，满足反导作战的快速反应需求，容易在较大防御纵深上实现即时最优的拦截作战任务规划。给出了网格化部署模型和基于短期轨迹预报的拦截规划流程。在反高超声速导弹的想定场景下，对该战法进行了初步演示，并总结了战法原则。在天基组网探测支援下，该战法利用目标轨迹的短期预报，可有效应对高超声速目标的强机动威胁。}
+      \field{journaltitle}{现代防御技术}
+      \field{langid}{chinese}
+      \field{languageid}{chinese}
+      \field{lansortorder}{1}
+      \field{number}{1}
+      \field{title}{反高超声速导弹网格化拦截战法初步研究}
+      \field{urlday}{30}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{usera}{J}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{volume}{52}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+      \verb{file}
+      \verb H:\Literature\Official\storage\B9UIPPQB\王松 等 - 2024 - 反高超声速导弹网格化拦截战法初步研究.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2024&filename=XDFJ202401001
+      \endverb
+      \verb{url}
+      \verb https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2024&filename=XDFJ202401001
+      \endverb
+      \keyw{/unread,导弹防御,分布式防御,高超声速导弹,轨迹预报,网格化拦截}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

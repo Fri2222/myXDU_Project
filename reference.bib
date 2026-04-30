@@ -1,0 +1,167 @@
+@online{EnsembleKalmanNetsInnovationbased,
+  title = {Ensemble of {{KalmanNets}} with Innovation-Based Attention for Robust Target Tracking - {{ScienceDirect}}},
+  url = {https://www.sciencedirect.com/science/article/pii/S1566253525008395},
+  urldate = {2026-04-29},
+  keywords = {/unread}
+}
+
+@article{reidAlgorithmTrackingMultiple1979,
+  title = {An Algorithm for Tracking Multiple Targets},
+  author = {Reid, D.},
+  date = {1979-12},
+  journaltitle = {IEEE Transactions on Automatic Control},
+  volume = {24},
+  number = {6},
+  pages = {843--854},
+  issn = {1558-2523},
+  doi = {10.1109/TAC.1979.1102177},
+  url = {https://ieeexplore.ieee.org/document/1102177/},
+  urldate = {2026-04-29},
+  abstract = {An algorithm for tracking multiple targets in a cluttered enviroment is developed. The algorithm is capable of initiating tracks, accounting for false or missing reports, and processing sets of dependent reports. As each measurement is received, probabilities are calculated for the hypotheses that the measurement came from previously known targets in a target file, or from a new target, or that the measurement is false. Target states are estimated from each such data-association hypothesis using a Kalman filter. As more measurements are received, the probabilities of joint hypotheses are calculated recursively using all available information such as density of unknown targets, density of false targets, probability of detection, and location uncertainty. This branching technique allows correlation of a measurement with its source based on subsequent, as well as previous, data. To keep the number of hypotheses reasonable, unlikely hypotheses are eliminated and hypotheses with similar target estimates are combined. To minimize computational requirements, the entire set of targets and measurements is divided into clusters that are solved independently. In an illustrative example of aircraft tracking, the algorithm successfully tracks targets over a wide range of conditions.},
+  keywords = {/unread,Air traffic control,Clustering algorithms,Land vehicles,Marine vehicles,Military aircraft,Probability,Radar detection,Radar tracking,Sea measurements,Target tracking},
+  file = {H:\Literature\Official\storage\4U24SUK5\Reid - 1979 - An algorithm for tracking multiple targets.pdf}
+}
+
+@article{revachKalmanNetNeuralNetwork2022,
+  title = {{{KalmanNet}}: {{Neural Network Aided Kalman Filtering}} for {{Partially Known Dynamics}}},
+  shorttitle = {{{KalmanNet}}},
+  author = {Revach, Guy and Shlezinger, Nir and Ni, Xiaoyong and Escoriza, Adria Lopez and Van Sloun, Ruud J. G. and Eldar, Yonina C.},
+  date = {2022},
+  journaltitle = {IEEE Transactions on Signal Processing},
+  shortjournal = {IEEE Trans. Signal Process.},
+  volume = {70},
+  pages = {1532--1547},
+  issn = {1053-587X, 1941-0476},
+  doi = {10.1109/TSP.2022.3158588},
+  url = {https://ieeexplore.ieee.org/document/9733186/},
+  urldate = {2025-11-08},
+  abstract = {State estimation of dynamical systems in real-time is a fundamental task in signal processing. For systems that are well-represented by a fully known linear Gaussian state space (SS) model, the celebrated Kalman filter (KF) is a low complexity optimal solution. However, both linearity of the underlying SS model and accurate knowledge of it are often not encountered in practice. Here, we present KalmanNet, a real-time state estimator that learns from data to carry out Kalman filtering under non-linear dynamics with partial information. By incorporating the structural SS model with a dedicated recurrent neural network module in the flow of the KF, we retain data efficiency and interpretability of the classic algorithm while implicitly learning complex dynamics from data. We demonstrate numerically that KalmanNet overcomes non-linearities and model mismatch, outperforming classic filtering methods operating with both mismatched and accurate domain knowledge.},
+  langid = {english},
+  keywords = {/unread,Data models,deep learning,Heuristic algorithms,Kalman filters,Mathematical models,Numerical models,Real-time systems,recurrent neural networks,Task analysis},
+  file = {H\:\\Literature\\Official\\storage\\2TC9SSKH\\Revach 等 - 2022 - KalmanNet Neural Network Aided Kalman Filtering for Partially Known Dynamics.pdf;H\:\\Literature\\Official\\storage\\ENU5S6AZ\\Revach 等 - 2022 - KalmanNet Neural Network Aided Kalman Filtering for Partially Known Dynamics.pdf;H\:\\Literature\\Official\\storage\\QHSNQ265\\Revach 等 - 2022 - KalmanNet Neural Network Aided Kalman Filtering for Partially Known Dynamics.pdf;H\:\\Literature\\Official\\storage\\UT8NUVYR\\Revach 等 - 2022 - KalmanNet Neural Network Aided Kalman Filtering for Partially Known Dynamics.pdf;H\:\\Literature\\Official\\storage\\WH7MXZU2\\Revach 等 - 2022 - KalmanNet Neural Network Aided Kalman Filtering for Partially Known Dynamics.pdf}
+}
+
+@online{songMotionEstimationMultiObject2025,
+  title = {Motion {{Estimation}} for {{Multi-Object Tracking}} Using {{KalmanNet}} with {{Semantic-Independent Encoding}}},
+  author = {Song, Jian and Mei, Wei and Xu, Yunfeng and Fu, Qiang and Kou, Renke and Bu, Lina and Long, Yucheng},
+  date = {2025-09-14},
+  eprint = {2509.11323},
+  eprinttype = {arXiv},
+  eprintclass = {cs},
+  doi = {10.48550/arXiv.2509.11323},
+  url = {http://arxiv.org/abs/2509.11323},
+  urldate = {2026-04-29},
+  abstract = {Motion estimation is a crucial component in multi-object tracking (MOT). It predicts the trajectory of objects by analyzing the changes in their positions in consecutive frames of images, reducing tracking failures and identity switches. The Kalman filter (KF) based on the linear constant-velocity model is one of the most commonly used methods in MOT. However, it may yield unsatisfactory results when KF's parameters are mismatched and objects move in non-stationary. In this work, we utilize the learning-aided filter to handle the motion estimation of MOT. In particular, we propose a novel method named Semantic-Independent KalmanNet (SIKNet), which encodes the state vector (the input feature) using a Semantic-Independent Encoder (SIE) by two steps. First, the SIE uses a 1D convolution with a kernel size of 1, which convolves along the dimension of homogeneous-semantic elements across different state vectors to encode independent semantic information. Then it employs a fully-connected layer and a nonlinear activation layer to encode nonlinear and cross-dependency information between heterogeneous-semantic elements. To independently evaluate the performance of the motion estimation module in MOT, we constructed a large-scale semi-simulated dataset from several open-source MOT datasets. Experimental results demonstrate that the proposed SIKNet outperforms the traditional KF and achieves superior robustness and accuracy than existing learning-aided filters. The code is available at (https://github.com/SongJgit/filternet and https://github.com/SongJgit/TBDTracker).},
+  pubstate = {prepublished},
+  keywords = {/unread,Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition},
+  file = {H:\Literature\Official\storage\PSDZYFNY\Song 等 - 2025 - Motion Estimation for Multi-Object Tracking using KalmanNet with Semantic-Independent Encoding.pdf}
+}
+
+@online{songMotionEstimationMultiObject2025,
+  title = {Motion {{Estimation}} for {{Multi-Object Tracking}} Using {{KalmanNet}} with {{Semantic-Independent Encoding}}},
+  author = {Song, Jian and Mei, Wei and Xu, Yunfeng and Fu, Qiang and Kou, Renke and Bu, Lina and Long, Yucheng},
+  date = {2025-09-14},
+  eprint = {2509.11323},
+  eprinttype = {arXiv},
+  eprintclass = {cs},
+  doi = {10.48550/arXiv.2509.11323},
+  url = {http://arxiv.org/abs/2509.11323},
+  urldate = {2026-04-29},
+  abstract = {Motion estimation is a crucial component in multi-object tracking (MOT). It predicts the trajectory of objects by analyzing the changes in their positions in consecutive frames of images, reducing tracking failures and identity switches. The Kalman filter (KF) based on the linear constant-velocity model is one of the most commonly used methods in MOT. However, it may yield unsatisfactory results when KF's parameters are mismatched and objects move in non-stationary. In this work, we utilize the learning-aided filter to handle the motion estimation of MOT. In particular, we propose a novel method named Semantic-Independent KalmanNet (SIKNet), which encodes the state vector (the input feature) using a Semantic-Independent Encoder (SIE) by two steps. First, the SIE uses a 1D convolution with a kernel size of 1, which convolves along the dimension of homogeneous-semantic elements across different state vectors to encode independent semantic information. Then it employs a fully-connected layer and a nonlinear activation layer to encode nonlinear and cross-dependency information between heterogeneous-semantic elements. To independently evaluate the performance of the motion estimation module in MOT, we constructed a large-scale semi-simulated dataset from several open-source MOT datasets. Experimental results demonstrate that the proposed SIKNet outperforms the traditional KF and achieves superior robustness and accuracy than existing learning-aided filters. The code is available at (https://github.com/SongJgit/filternet and https://github.com/SongJgit/TBDTracker).},
+  pubstate = {prepublished},
+  keywords = {/unread,Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition},
+  file = {H:\Literature\Official\storage\7QMRWIMR\Song 等 - 2025 - Motion Estimation for Multi-Object Tracking using KalmanNet with Semantic-Independent Encoding.pdf}
+}
+
+@online{TinyNeuralNetworks,
+  title = {Tiny {{Neural Networks}} for {{Multi-Object Tracking}} in a {{Modular Kalman Framework}}},
+  url = {https://arxiv.org/html/2504.02519v2},
+  urldate = {2026-04-29},
+  keywords = {/unread}
+}
+
+@online{TinyNeuralNetworksa,
+  title = {Tiny Neural Networks for Multi-Object Tracking in a Modular {{Kalman}} Framework | {{Autonomous Intelligent Systems}} | {{Springer Nature Link}}},
+  url = {https://link.springer.com/article/10.1007/s43684-026-00127-2},
+  urldate = {2026-04-29},
+  keywords = {/unread}
+}
+
+@article{WangLuoJiYuGaiJinByteTrackSuanFaDeHongWaiDiMianDuoMuBiaoGenZongFangFa2023,
+  title = {基于改进ByteTrack算法的红外地面多目标跟踪方法},
+  author = {{王雒} and {李飚} and {傅瑞罡}},
+  date = {2023},
+  journaltitle = {计算机科学},
+  volume = {50},
+  number = {9},
+  pages = {176--183},
+  issn = {1002-137X},
+  url = {https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2023&filename=JSJA202309023},
+  urldate = {2025-12-28},
+  abstract = {红外目标智能检测跟踪技术研究一直是同领域中的热点问题，尤其是在精确制导、海面监视和天空预警等方面。针对红外地面多目标跟踪场景中，由地面杂波干扰、多目标遮挡干扰、平台晃动等复杂场景造成的跟踪精度降低等问题，提出了一种基于改进ByteTrack算法的红外地面多目标跟踪方法。首先引用一种自适应调制噪声尺度的卡尔曼滤波器，缓解低质量检测对vanilla卡尔曼滤波器的影响；其次引入增强相关系数最大化算法对帧间图像进行配准，来补偿平台晃动产生的影响；然后增加了基于长短期记忆网络的运动模型，减小了卡尔曼滤波在非线性运动状态中产生的预测误差；最后引入连接模型和高斯平滑算法这两种轻量级离线算法来完善跟踪结果。在红外地面多目标数据集上进行了实验，结果表明，与Sort和Deepsort算法相比，改进算法的MOTA值分别提升了8.3\%和10.2\%,IDF1值分别提升了6.5\%和5.6\%。与同类算法相比，改进算法表现出了更好的有效性，在红外目标智能检测跟踪场景中会有较大应用。},
+  langid = {chinese},
+  keywords = {/unread,多目标跟踪,红外目标,卡尔曼滤波,长短期记忆网络,ByteTrack},
+  annotation = {original-container-title: Computer Science\\
+foundation: 国家自然科学基金(62001482)； 湖南省自然科学基金(2021JJ40676)\textasciitilde\textasciitilde ；\\
+download: 1005\\
+album: 信息科技\\
+CLC: TP391.41;TN219\\
+dbcode: CJFQ\\
+dbname: CJFDLAST2023\\
+filename: JSJA202309023\\
+publicationTag: 北大核心, JST, CSCD, WJCI\\
+CIF: 2.817\\
+AIF: 1.411},
+  file = {H:\Literature\Official\storage\8NEATD7M\王雒 等 - 2023 - 基于改进ByteTrack算法的红外地面多目标跟踪方法.pdf}
+}
+
+@article{WangSongFanGaoChaoShengSuDaoDanWangGeHuaLanJieZhanFaChuBuYanJiu2024,
+  title = {反高超声速导弹网格化拦截战法初步研究},
+  author = {{王松} and {邵圣祥} and {栾晓文} and {张帅钦}},
+  date = {2024},
+  journaltitle = {现代防御技术},
+  volume = {52},
+  number = {1},
+  pages = {1--7},
+  url = {https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2024&filename=XDFJ202401001},
+  urldate = {2026-04-30},
+  abstract = {高超声速导弹已成为大国博弈的尖端武器，对现有导弹防御系统造成了严重冲击。为应对高超声速导弹威胁，提出了一种分布式网格化拦截战法，有助于实现从分层防御到分布式防御的创新发展。该战法具有分布式作战、弹性作战的优势，满足反导作战的快速反应需求，容易在较大防御纵深上实现即时最优的拦截作战任务规划。给出了网格化部署模型和基于短期轨迹预报的拦截规划流程。在反高超声速导弹的想定场景下，对该战法进行了初步演示，并总结了战法原则。在天基组网探测支援下，该战法利用目标轨迹的短期预报，可有效应对高超声速目标的强机动威胁。},
+  langid = {chinese},
+  keywords = {/unread,导弹防御,分布式防御,高超声速导弹,轨迹预报,网格化拦截},
+  file = {H:\Literature\Official\storage\B9UIPPQB\王松 等 - 2024 - 反高超声速导弹网格化拦截战法初步研究.pdf}
+}
+
+@online{zhangByteTrackMultiObjectTracking2022,
+  title = {{{ByteTrack}}: {{Multi-Object Tracking}} by {{Associating Every Detection Box}}},
+  shorttitle = {{{ByteTrack}}},
+  author = {Zhang, Yifu and Sun, Peize and Jiang, Yi and Yu, Dongdong and Weng, Fucheng and Yuan, Zehuan and Luo, Ping and Liu, Wenyu and Wang, Xinggang},
+  date = {2022-04-07},
+  eprint = {2110.06864},
+  eprinttype = {arXiv},
+  eprintclass = {cs},
+  doi = {10.48550/arXiv.2110.06864},
+  url = {http://arxiv.org/abs/2110.06864},
+  urldate = {2025-11-24},
+  abstract = {Multi-object tracking (MOT) aims at estimating bounding boxes and identities of objects in videos. Most methods obtain identities by associating detection boxes whose scores are higher than a threshold. The objects with low detection scores, e.g. occluded objects, are simply thrown away, which brings non-negligible true object missing and fragmented trajectories. To solve this problem, we present a simple, effective and generic association method, tracking by associating almost every detection box instead of only the high score ones. For the low score detection boxes, we utilize their similarities with tracklets to recover true objects and filter out the background detections. When applied to 9 different state-of-the-art trackers, our method achieves consistent improvement on IDF1 score ranging from 1 to 10 points. To put forwards the state-of-the-art performance of MOT, we design a simple and strong tracker, named ByteTrack. For the first time, we achieve 80.3 MOTA, 77.3 IDF1 and 63.1 HOTA on the test set of MOT17 with 30 FPS running speed on a single V100 GPU. ByteTrack also achieves state-of-the-art performance on MOT20, HiEve and BDD100K tracking benchmarks. The source code, pre-trained models with deploy versions and tutorials of applying to other trackers are released at https://github.com/ifzhang/ByteTrack.},
+  langid = {american},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  file = {H:\Literature\Official\storage\QW6USQE6\Zhang 等 - 2022 - ByteTrack Multi-Object Tracking by Associating Every Detection Box.pdf}
+}
+
+@article{ZhouChiJunGaoDongTaiMuBiaoLanJieDanZhiDaoYuKongZhiQianYanJiShuZhanWang2022,
+  title = {高动态目标拦截弹制导与控制前沿技术展望},
+  author = {{周池军} and {邵雷} and {骆长鑫} and {李明杰} and {雷虎民}},
+  date = {2022},
+  journaltitle = {空天技术},
+  number = {2},
+  pages = {61--74},
+  doi = {10.16338/j.issn.2097-0714.20220614},
+  url = {https://doi.org/10.16338/j.issn.2097-0714.20220614},
+  urldate = {2026-04-30},
+  abstract = {临近空间高动态飞行器武器化进程日益加速，给国家空天安全带来了新的威胁和挑战。临近空间防御作战是应对高动态目标威胁的有效手段，但是对拦截弹的制导控制技术提出了更高的要求。针对临近空间防御作战背景和需求，聚焦拦截弹制导控制过程中涉及的目标轨迹预测、中制导弹道生成与修正、中末制导交接班、精确末制导以及高性能控制5项前沿技术，梳理总结了相关研究的最新进展情况，分析了现有研究的局限性，展望了相关技术的发展方向并给出了可行的研究思路。},
+  langid = {chinese},
+  keywords = {/unread,复合控制,高动态目标,轨迹预测,末制导,中末制导交接班,中制导},
+  annotation = {Fund: 国家自然科学基金（61873278;62173339）；},
+  file = {H:\Literature\Official\storage\LQU99THE\周池军 等 - 2022 - 高动态目标拦截弹制导与控制前沿技术展望.pdf}
+}
