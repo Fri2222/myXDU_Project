@@ -106,83 +106,351 @@
       \endverb
       \keyw{/unread,复合控制,高动态目标,轨迹预测,末制导,中末制导交接班,中制导}
     \endentry
-    \entry{WangSongFanGaoChaoShengSuDaoDanWangGeHuaLanJieZhanFaChuBuYanJiu2024}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=e4b9724fd4309e9a9f2de3ee72ee0a81}{%
-           family={{王松}},
-           familyi={王\bibinitperiod}}}%
-        {{hash=de27c0d6c4d1c9e59ced365d86f4ee68}{%
-           family={{邵圣祥}},
-           familyi={邵\bibinitperiod}}}%
-        {{hash=1ae19aa89e782facfb753e51bf1f748c}{%
-           family={{栾晓文}},
-           familyi={栾\bibinitperiod}}}%
-        {{hash=39cf4409233a72569d241e4f53475294}{%
-           family={{张帅钦}},
-           familyi={张\bibinitperiod}}}%
+    \entry{revachKalmanNetNeuralNetwork2022}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=cadf90b1561ec81bcc35e53fae212d95}{%
+           family={Revach},
+           familyi={R\bibinitperiod},
+           given={Guy},
+           giveni={G\bibinitperiod}}}%
+        {{hash=072ab2fe82d486ad628191b0f6dff7da}{%
+           family={Shlezinger},
+           familyi={S\bibinitperiod},
+           given={Nir},
+           giveni={N\bibinitperiod}}}%
+        {{hash=b97dbba85ca68eb1b4ce70af2176427c}{%
+           family={Ni},
+           familyi={N\bibinitperiod},
+           given={Xiaoyong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=08baaf1435c93f6de6ba0eed3487e6c3}{%
+           family={Escoriza},
+           familyi={E\bibinitperiod},
+           given={Adria\bibnamedelima Lopez},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=203775df8487f55818f3e40a9fadf3bb}{%
+           family={Van\bibnamedelima Sloun},
+           familyi={V\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Ruud\bibnamedelimb J.\bibnamedelimi G.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=d147b0cce00b122576f734fc8dc462a7}{%
+           family={Eldar},
+           familyi={E\bibinitperiod},
+           given={Yonina\bibnamedelima C.},
+           giveni={Y\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
       }
-      \name{namea}{4}{}{%
-        {{hash=e4b9724fd4309e9a9f2de3ee72ee0a81}{%
-           family={{王松}},
-           familyi={王\bibinitperiod}}}%
-        {{hash=de27c0d6c4d1c9e59ced365d86f4ee68}{%
-           family={{邵圣祥}},
-           familyi={邵\bibinitperiod}}}%
-        {{hash=1ae19aa89e782facfb753e51bf1f748c}{%
-           family={{栾晓文}},
-           familyi={栾\bibinitperiod}}}%
-        {{hash=39cf4409233a72569d241e4f53475294}{%
-           family={{张帅钦}},
-           familyi={张\bibinitperiod}}}%
+      \name{namea}{6}{}{%
+        {{hash=cadf90b1561ec81bcc35e53fae212d95}{%
+           family={Revach},
+           familyi={R\bibinitperiod},
+           given={Guy},
+           giveni={G\bibinitperiod}}}%
+        {{hash=072ab2fe82d486ad628191b0f6dff7da}{%
+           family={Shlezinger},
+           familyi={S\bibinitperiod},
+           given={Nir},
+           giveni={N\bibinitperiod}}}%
+        {{hash=b97dbba85ca68eb1b4ce70af2176427c}{%
+           family={Ni},
+           familyi={N\bibinitperiod},
+           given={Xiaoyong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=08baaf1435c93f6de6ba0eed3487e6c3}{%
+           family={Escoriza},
+           familyi={E\bibinitperiod},
+           given={Adria\bibnamedelima Lopez},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=203775df8487f55818f3e40a9fadf3bb}{%
+           family={Van\bibnamedelima Sloun},
+           familyi={V\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Ruud\bibnamedelimb J.\bibnamedelimi G.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=d147b0cce00b122576f734fc8dc462a7}{%
+           family={Eldar},
+           familyi={E\bibinitperiod},
+           given={Yonina\bibnamedelima C.},
+           giveni={Y\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{ece4fcee73d6f4ad2bcc52506d2c3b00}
+      \strng{fullhash}{18f2cc252d2d1f42dde8300fa4994685}
+      \strng{fullhashraw}{18f2cc252d2d1f42dde8300fa4994685}
+      \strng{bibnamehash}{86bd50055cd256be9bc2965b6a834fb3}
+      \strng{authorbibnamehash}{86bd50055cd256be9bc2965b6a834fb3}
+      \strng{authornamehash}{ece4fcee73d6f4ad2bcc52506d2c3b00}
+      \strng{authorfullhash}{18f2cc252d2d1f42dde8300fa4994685}
+      \strng{authorfullhashraw}{18f2cc252d2d1f42dde8300fa4994685}
+      \strng{nameabibnamehash}{86bd50055cd256be9bc2965b6a834fb3}
+      \strng{nameanamehash}{ece4fcee73d6f4ad2bcc52506d2c3b00}
+      \strng{nameafullhash}{18f2cc252d2d1f42dde8300fa4994685}
+      \strng{nameafullhashraw}{18f2cc252d2d1f42dde8300fa4994685}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{State estimation of dynamical systems in real-time is a fundamental task in signal processing. For systems that are well-represented by a fully known linear Gaussian state space (SS) model, the celebrated Kalman filter (KF) is a low complexity optimal solution. However, both linearity of the underlying SS model and accurate knowledge of it are often not encountered in practice. Here, we present KalmanNet, a real-time state estimator that learns from data to carry out Kalman filtering under non-linear dynamics with partial information. By incorporating the structural SS model with a dedicated recurrent neural network module in the flow of the KF, we retain data efficiency and interpretability of the classic algorithm while implicitly learning complex dynamics from data. We demonstrate numerically that KalmanNet overcomes non-linearities and model mismatch, outperforming classic filtering methods operating with both mismatched and accurate domain knowledge.}
+      \field{issn}{1053-587X, 1941-0476}
+      \field{journaltitle}{IEEE Transactions on Signal Processing}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{shortjournal}{IEEE Trans. Signal Process.}
+      \field{shorttitle}{{{KalmanNet}}}
+      \field{title}{{{KalmanNet}}: {{Neural Network Aided Kalman Filtering}} for {{Partially Known Dynamics}}}
+      \field{urlday}{8}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{70}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1532\bibrangedash 1547}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1109/TSP.2022.3158588
+      \endverb
+      \verb{file}
+      \verb H\:\\Literature\\Official\\storage\\2TC9SSKH\\Revach 等 - 2022 - KalmanNet Neural Network Aided Kalman Filtering for Partially Known Dynamics.pdf;H\:\\Literature\\Official\\storage\\ENU5S6AZ\\Revach 等 - 2022 - KalmanNet Neural Network Aided Kalman Filtering for Partially Known Dynamics.pdf;H\:\\Literature\\Official\\storage\\QHSNQ265\\Revach 等 - 2022 - KalmanNet Neural Network Aided Kalman Filtering for Partially Known Dynamics.pdf;H\:\\Literature\\Official\\storage\\UT8NUVYR\\Revach 等 - 2022 - KalmanNet Neural Network Aided Kalman Filtering for Partially Known Dynamics.pdf;H\:\\Literature\\Official\\storage\\WH7MXZU2\\Revach 等 - 2022 - KalmanNet Neural Network Aided Kalman Filtering for Partially Known Dynamics.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9733186/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9733186/
+      \endverb
+      \keyw{/unread,Data models,deep learning,Heuristic algorithms,Kalman filters,Mathematical models,Numerical models,Real-time systems,recurrent neural networks,Task analysis}
+    \endentry
+    \entry{zhangByteTrackMultiObjectTracking2022}{online}{}{}
+      \name{author}{9}{}{%
+        {{hash=fe8b7f3911294516753b2d51a6140997}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yifu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d52526d5deefaf143df9015f52a0d3cb}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Peize},
+           giveni={P\bibinitperiod}}}%
+        {{hash=aefed70e3b6aeee186d622fd3721feb8}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=64c26663564ad20c85dd9b1f421ca849}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Dongdong},
+           giveni={D\bibinitperiod}}}%
+        {{hash=34da69027b467871688c97975837692a}{%
+           family={Weng},
+           familyi={W\bibinitperiod},
+           given={Fucheng},
+           giveni={F\bibinitperiod}}}%
+        {{hash=88f645de868bcc47896cdd2386e82512}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Zehuan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=e85079235b2a8c88ee9360e55b37523a}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Ping},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d2354226a305a694e082d0c47c299a00}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Wenyu},
+           giveni={W\bibinitperiod}}}%
+        {{hash=1bd616b774bd66d7d77e025ac08c962d}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xinggang},
+           giveni={X\bibinitperiod}}}%
+      }
+      \name{namea}{9}{}{%
+        {{hash=fe8b7f3911294516753b2d51a6140997}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yifu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d52526d5deefaf143df9015f52a0d3cb}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Peize},
+           giveni={P\bibinitperiod}}}%
+        {{hash=aefed70e3b6aeee186d622fd3721feb8}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=64c26663564ad20c85dd9b1f421ca849}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Dongdong},
+           giveni={D\bibinitperiod}}}%
+        {{hash=34da69027b467871688c97975837692a}{%
+           family={Weng},
+           familyi={W\bibinitperiod},
+           given={Fucheng},
+           giveni={F\bibinitperiod}}}%
+        {{hash=88f645de868bcc47896cdd2386e82512}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Zehuan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=e85079235b2a8c88ee9360e55b37523a}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Ping},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d2354226a305a694e082d0c47c299a00}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Wenyu},
+           giveni={W\bibinitperiod}}}%
+        {{hash=1bd616b774bd66d7d77e025ac08c962d}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xinggang},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{8670678d0226ac56309c13a114bfaa24}
+      \strng{fullhash}{a54e26a59836c8695ca5ddf0e9f1f17d}
+      \strng{fullhashraw}{a54e26a59836c8695ca5ddf0e9f1f17d}
+      \strng{bibnamehash}{444551d49c25ff61f2f1123e95a0e4af}
+      \strng{authorbibnamehash}{444551d49c25ff61f2f1123e95a0e4af}
+      \strng{authornamehash}{8670678d0226ac56309c13a114bfaa24}
+      \strng{authorfullhash}{a54e26a59836c8695ca5ddf0e9f1f17d}
+      \strng{authorfullhashraw}{a54e26a59836c8695ca5ddf0e9f1f17d}
+      \strng{nameabibnamehash}{444551d49c25ff61f2f1123e95a0e4af}
+      \strng{nameanamehash}{8670678d0226ac56309c13a114bfaa24}
+      \strng{nameafullhash}{a54e26a59836c8695ca5ddf0e9f1f17d}
+      \strng{nameafullhashraw}{a54e26a59836c8695ca5ddf0e9f1f17d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Multi-object tracking (MOT) aims at estimating bounding boxes and identities of objects in videos. Most methods obtain identities by associating detection boxes whose scores are higher than a threshold. The objects with low detection scores, e.g. occluded objects, are simply thrown away, which brings non-negligible true object missing and fragmented trajectories. To solve this problem, we present a simple, effective and generic association method, tracking by associating almost every detection box instead of only the high score ones. For the low score detection boxes, we utilize their similarities with tracklets to recover true objects and filter out the background detections. When applied to 9 different state-of-the-art trackers, our method achieves consistent improvement on IDF1 score ranging from 1 to 10 points. To put forwards the state-of-the-art performance of MOT, we design a simple and strong tracker, named ByteTrack. For the first time, we achieve 80.3 MOTA, 77.3 IDF1 and 63.1 HOTA on the test set of MOT17 with 30 FPS running speed on a single V100 GPU. ByteTrack also achieves state-of-the-art performance on MOT20, HiEve and BDD100K tracking benchmarks. The source code, pre-trained models with deploy versions and tutorials of applying to other trackers are released at https://github.com/ifzhang/ByteTrack.}
+      \field{day}{7}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arXiv}
+      \field{langid}{american}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{month}{4}
+      \field{pubstate}{prepublished}
+      \field{shorttitle}{{{ByteTrack}}}
+      \field{title}{{{ByteTrack}}: {{Multi-Object Tracking}} by {{Associating Every Detection Box}}}
+      \field{urlday}{24}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{usera}{EB}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2110.06864
+      \endverb
+      \verb{eprint}
+      \verb 2110.06864
+      \endverb
+      \verb{file}
+      \verb H:\Literature\Official\storage\QW6USQE6\Zhang 等 - 2022 - ByteTrack Multi-Object Tracking by Associating Every Detection Box.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2110.06864
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2110.06864
+      \endverb
+      \keyw{Computer Science - Computer Vision and Pattern Recognition}
+    \endentry
+    \entry{LuoYuanJiYuShenDuXueXiDeMuBiaoGenZongJiShuDeYanJiuZongShu2020}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=d806df29948b278925a3095e5ce94888}{%
+           family={{罗元}},
+           familyi={罗\bibinitperiod}}}%
+        {{hash=f7c02f00a6c29a6bded061851d60fb87}{%
+           family={{肖航}},
+           familyi={肖\bibinitperiod}}}%
+        {{hash=0d4593f61b8c7242530bb1cf905e760d}{%
+           family={{欧俊雄}},
+           familyi={欧\bibinitperiod}}}%
+      }
+      \name{namea}{3}{}{%
+        {{hash=d806df29948b278925a3095e5ce94888}{%
+           family={{罗元}},
+           familyi={罗\bibinitperiod}}}%
+        {{hash=f7c02f00a6c29a6bded061851d60fb87}{%
+           family={{肖航}},
+           familyi={肖\bibinitperiod}}}%
+        {{hash=0d4593f61b8c7242530bb1cf905e760d}{%
+           family={{欧俊雄}},
+           familyi={欧\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {chinese}%
       }
-      \strng{namehash}{ce0c13b268aeabf49f71aeeaa615831e}
-      \strng{fullhash}{649fa20144f6485837b1281a7b59c88b}
-      \strng{fullhashraw}{649fa20144f6485837b1281a7b59c88b}
-      \strng{bibnamehash}{4afff9daa62856e8f63d30370b177654}
-      \strng{authorbibnamehash}{4afff9daa62856e8f63d30370b177654}
-      \strng{authornamehash}{ce0c13b268aeabf49f71aeeaa615831e}
-      \strng{authorfullhash}{649fa20144f6485837b1281a7b59c88b}
-      \strng{authorfullhashraw}{649fa20144f6485837b1281a7b59c88b}
-      \strng{nameabibnamehash}{4afff9daa62856e8f63d30370b177654}
-      \strng{nameanamehash}{ce0c13b268aeabf49f71aeeaa615831e}
-      \strng{nameafullhash}{649fa20144f6485837b1281a7b59c88b}
-      \strng{nameafullhashraw}{649fa20144f6485837b1281a7b59c88b}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \strng{namehash}{79350cea626e8509371221e43011c560}
+      \strng{fullhash}{81f2265c46f8e8253a761b0f633cfc4d}
+      \strng{fullhashraw}{81f2265c46f8e8253a761b0f633cfc4d}
+      \strng{bibnamehash}{81f2265c46f8e8253a761b0f633cfc4d}
+      \strng{authorbibnamehash}{81f2265c46f8e8253a761b0f633cfc4d}
+      \strng{authornamehash}{79350cea626e8509371221e43011c560}
+      \strng{authorfullhash}{81f2265c46f8e8253a761b0f633cfc4d}
+      \strng{authorfullhashraw}{81f2265c46f8e8253a761b0f633cfc4d}
+      \strng{nameabibnamehash}{81f2265c46f8e8253a761b0f633cfc4d}
+      \strng{nameanamehash}{79350cea626e8509371221e43011c560}
+      \strng{nameafullhash}{81f2265c46f8e8253a761b0f633cfc4d}
+      \strng{nameafullhashraw}{81f2265c46f8e8253a761b0f633cfc4d}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{高超声速导弹已成为大国博弈的尖端武器，对现有导弹防御系统造成了严重冲击。为应对高超声速导弹威胁，提出了一种分布式网格化拦截战法，有助于实现从分层防御到分布式防御的创新发展。该战法具有分布式作战、弹性作战的优势，满足反导作战的快速反应需求，容易在较大防御纵深上实现即时最优的拦截作战任务规划。给出了网格化部署模型和基于短期轨迹预报的拦截规划流程。在反高超声速导弹的想定场景下，对该战法进行了初步演示，并总结了战法原则。在天基组网探测支援下，该战法利用目标轨迹的短期预报，可有效应对高超声速目标的强机动威胁。}
-      \field{journaltitle}{现代防御技术}
+      \field{abstract}{深度学习技术在计算机视觉领域的应用日趋广泛,基于深度学习的目标跟踪技术是当前计算机视觉领域的一项重要研究课题。文章首先对国内外目标跟踪技术的发展历程进行了回顾和梳理,详细介绍并对比了部分典型的基于深度学习的目标跟踪方法;然后介绍了几种目标跟踪领域的典型数据集;最后对基于深度学习的目标跟踪技术的研究进行了总结,并对未来的发展方向进行了展望。}
+      \field{annotation}{Fund: 国家自然科学基金项目(61801061)； 重庆市教委科技项目(KJQN201800607)；}
+      \field{journaltitle}{半导体光电}
       \field{langid}{chinese}
       \field{languageid}{chinese}
       \field{lansortorder}{1}
-      \field{number}{1}
-      \field{title}{反高超声速导弹网格化拦截战法初步研究}
+      \field{number}{6}
+      \field{title}{基于深度学习的目标跟踪技术的研究综述}
       \field{urlday}{30}
       \field{urlmonth}{4}
       \field{urlyear}{2026}
       \field{usera}{J}
       \field{userd}{chinese}
       \field{userf}{chinese}
-      \field{volume}{52}
-      \field{year}{2024}
+      \field{volume}{41}
+      \field{year}{2020}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \field{pages}{1\bibrangedash 7}
-      \range{pages}{7}
+      \field{pages}{757\bibrangedash 767}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.16818/j.issn1001-5868.2020.06.001
+      \endverb
       \verb{file}
-      \verb H:\Literature\Official\storage\B9UIPPQB\王松 等 - 2024 - 反高超声速导弹网格化拦截战法初步研究.pdf
+      \verb H:\Literature\Official\storage\C5ASVFY3\罗元 等 - 2020 - 基于深度学习的目标跟踪技术的研究综述.pdf
       \endverb
       \verb{urlraw}
-      \verb https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2024&filename=XDFJ202401001
+      \verb https://doi.org/10.16818/j.issn1001-5868.2020.06.001
       \endverb
       \verb{url}
-      \verb https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2024&filename=XDFJ202401001
+      \verb https://doi.org/10.16818/j.issn1001-5868.2020.06.001
       \endverb
-      \keyw{/unread,导弹防御,分布式防御,高超声速导弹,轨迹预报,网格化拦截}
+      \keyw{/unread,计算机视觉,目标跟踪,深度学习}
     \endentry
   \enddatalist
 \endrefsection
