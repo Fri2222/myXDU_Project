@@ -333,7 +333,7 @@
       \endverb
       \keyw{/unread,Data models,deep learning,Heuristic algorithms,Kalman filters,Mathematical models,Numerical models,Real-time systems,recurrent neural networks,Task analysis}
     \endentry
-    \entry{zhangByteTrackMultiObjectTracking2022}{inproceedings}{}{}
+    \entry{zhangByteTrackMultiObjectTracking2022}{article}{}{}
       \name{author}{9}{}{%
         {{hash=fe8b7f3911294516753b2d51a6140997}{%
            family={Zhang},
@@ -448,13 +448,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Multi-object tracking (MOT) aims at estimating bounding boxes and identities of objects in videos. Most methods obtain identities by associating detection boxes whose scores are higher than a threshold. The objects with low detection scores, e.g. occluded objects, are simply thrown away, which brings non-negligible true object missing and fragmented trajectories. To solve this problem, we present a simple, effective and generic association method, tracking by associating almost every detection box instead of only the high score ones. For the low score detection boxes, we utilize their similarities with tracklets to recover true objects and filter out the background detections. When applied to 9 different state-of-the-art trackers, our method achieves consistent improvement on IDF1 score ranging from 1 to 10 points. To put forwards the state-of-the-art performance of MOT, we design a simple and strong tracker, named ByteTrack. For the first time, we achieve 80.3 MOTA, 77.3 IDF1 and 63.1 HOTA on the test set of MOT17 with 30 FPS running speed on a single V100 GPU. ByteTrack also achieves state-of-the-art performance on MOT20, HiEve and BDD100K tracking benchmarks. The source code, pre-trained models with deploy versions and tutorials of applying to other trackers are released at https://github.com/ifzhang/ByteTrack.}
-      \field{booktitle}{Proceedings of the European Conference on Computer Vision (ECCV)}
+      \field{journaltitle}{Proceedings of the European Conference on Computer Vision (ECCV)}
       \field{langid}{american}
       \field{languageid}{english}
       \field{lansortorder}{4}
       \field{shorttitle}{{{ByteTrack}}}
       \field{title}{{{ByteTrack}}: {{Multi-Object Tracking}} by {{Associating Every Detection Box}}}
-      \field{usera}{C}
+      \field{usera}{J}
       \field{userd}{english}
       \field{userf}{english}
       \field{year}{2022}
@@ -741,7 +741,7 @@
       \endverb
       \keyw{多目标跟踪,计算机视觉,目标检测,数据关联,特征提取}
     \endentry
-    \entry{bewleySimpleOnlineRealtime2016}{inproceedings}{}{}
+    \entry{bewleySimpleOnlineRealtime2016}{article}{}{}
       \name{author}{5}{}{%
         {{hash=bcbacb46da933474a6ca4e4a69b7bfdc}{%
            family={Bewley},
@@ -816,9 +816,9 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper explores a pragmatic approach to multiple object tracking where the main focus is to associate objects efficiently for online and realtime applications. To this end, detection quality is identified as a key factor influencing tracking performance, where changing the detector can improve tracking by up to 18.9\%. Despite only using a rudimentary combination of familiar techniques such as the Kalman Filter and Hungarian algorithm for the tracking components, this approach achieves an accuracy comparable to state-of-the-art online trackers. Furthermore, due to the simplicity of our tracking method, the tracker updates at a rate of 260 Hz which is over 20x faster than other state-of-the-art trackers.}
-      \field{booktitle}{2016 {{IEEE International Conference}} on {{Image Processing}} ({{ICIP}})}
       \field{eventtitle}{2016 {{IEEE International Conference}} on {{Image Processing}} ({{ICIP}})}
       \field{issn}{2381-8549}
+      \field{journaltitle}{2016 {{IEEE International Conference}} on {{Image Processing}} ({{ICIP}})}
       \field{langid}{english}
       \field{languageid}{english}
       \field{lansortorder}{4}
@@ -827,7 +827,7 @@
       \field{urlday}{2}
       \field{urlmonth}{5}
       \field{urlyear}{2026}
-      \field{usera}{C}
+      \field{usera}{J}
       \field{userd}{english}
       \field{userf}{english}
       \field{year}{2016}
@@ -849,7 +849,7 @@
       \endverb
       \keyw{/unread,Benchmark testing,Complexity theory,Computer Vision,Data Association,Detection,Detectors,Kalman filters,Multiple Object Tracking,Target tracking,Visualization}
     \endentry
-    \entry{wojkeSimpleOnlineRealtime2017}{inproceedings}{}{}
+    \entry{wojkeSimpleOnlineRealtime2017}{article}{}{}
       \name{author}{3}{}{%
         {{hash=b926658d6906979bd0ae465c48154351}{%
            family={Wojke},
@@ -904,9 +904,9 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Simple Online and Realtime Tracking (SORT) is a pragmatic approach to multiple object tracking with a focus on simple, effective algorithms. In this paper, we integrate appearance information to improve the performance of SORT. Due to this extension we are able to track objects through longer periods of occlusions, effectively reducing the number of identity switches. In spirit of the original framework we place much of the computational complexity into an offline pre-training stage where we learn a deep association metric on a largescale person re-identification dataset. During online application, we establish measurement-to-track associations using nearest neighbor queries in visual appearance space. Experimental evaluation shows that our extensions reduce the number of identity switches by 45\%, achieving overall competitive performance at high frame rates.}
-      \field{booktitle}{2017 {{IEEE International Conference}} on {{Image Processing}} ({{ICIP}})}
       \field{eventtitle}{2017 {{IEEE International Conference}} on {{Image Processing}} ({{ICIP}})}
       \field{issn}{2381-8549}
+      \field{journaltitle}{2017 {{IEEE International Conference}} on {{Image Processing}} ({{ICIP}})}
       \field{langid}{english}
       \field{languageid}{english}
       \field{lansortorder}{4}
@@ -915,7 +915,7 @@
       \field{urlday}{2}
       \field{urlmonth}{5}
       \field{urlyear}{2026}
-      \field{usera}{C}
+      \field{usera}{J}
       \field{userd}{english}
       \field{userf}{english}
       \field{year}{2017}
@@ -934,7 +934,7 @@
       \endverb
       \keyw{/unread,Cameras,Computer Vision,Data Association,Extraterrestrial measurements,Kalman filters,Multiple Object Tracking,Standards,Tracking,Uncertainty}
     \endentry
-    \entry{RealTimeMultiObjectTracking}{inproceedings}{}{}
+    \entry{RealTimeMultiObjectTracking}{article}{}{}
       \name{author}{3}{}{%
         {{hash=ca0724a3010f0a8c774baf95fdd595df}{%
            family={Wang},
@@ -988,12 +988,12 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the European Conference on Computer Vision (ECCV)}
+      \field{journaltitle}{Proceedings of the European Conference on Computer Vision (ECCV)}
       \field{langid}{english}
       \field{languageid}{english}
       \field{lansortorder}{4}
       \field{title}{Towards Real-Time Multi-Object Tracking}
-      \field{usera}{C}
+      \field{usera}{J}
       \field{userd}{english}
       \field{userf}{english}
       \field{year}{2020}
@@ -1069,7 +1069,7 @@
       \range{pages}{19}
       \keyw{/unread}
     \endentry
-    \entry{zengMOTREndtoEndMultipleObject}{inproceedings}{}{}
+    \entry{zengMOTREndtoEndMultipleObject}{article}{}{}
       \name{author}{6}{}{%
         {{hash=cf8347625ac023e9b6dce6a0e814d570}{%
            family={Zeng},
@@ -1154,13 +1154,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Temporal modeling of objects is a key challenge in multiple object tracking (MOT). Existing methods track by associating detections through motion-based and appearance-based similarity heuristics. The post-processing nature of association prevents end-to-end exploitation of temporal variations in video sequence. In this paper, we propose MOTR, which extends DETR and introduces track query to model the tracked instances in the entire video. Track query is transferred and updated frame-by-frame to perform iterative prediction over time. We propose tracklet-aware label assignment to train track queries and newborn object queries. We further propose temporal aggregation network and collective average loss to enhance temporal relation modeling. Experimental results on DanceTrack show that MOTR significantly outperforms state-of-the-art method, ByteTrack by 6.5\% on HOTA metric. On MOT17, MOTR outperforms our concurrent works, TrackFormer and TransTrack, on association performance. MOTR can serve as a stronger baseline for future research on temporal modeling and Transformer-based trackers. Code is available at https://github.com/megvii-research/MOTR.}
-      \field{booktitle}{Proceedings of the European Conference on Computer Vision (ECCV)}
+      \field{journaltitle}{Proceedings of the European Conference on Computer Vision (ECCV)}
       \field{langid}{english}
       \field{languageid}{english}
       \field{lansortorder}{4}
       \field{shorttitle}{{{MOTR}}}
       \field{title}{{{MOTR}}: {{End-to-End Multiple-Object Tracking}} with {{Transformer}}}
-      \field{usera}{C}
+      \field{usera}{J}
       \field{userd}{english}
       \field{userf}{english}
       \field{year}{2022}
