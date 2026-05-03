@@ -1,15 +1,17 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[112] biber-MSWIN64:342> INFO - === 
-[149] Biber.pm:421> INFO - Reading 'main.bcf'
-[297] Biber.pm:1002> INFO - Found 21 citekeys in bib section 0
-[313] Biber.pm:4487> INFO - Processing section 0
-[324] Biber.pm:4678> INFO - Looking for bibtex file 'reference.bib' for section 0
-[365] bibtex.pm:1713> INFO - LaTeX decoding ...
-[419] bibtex.pm:1519> INFO - Found BibTeX data source 'reference.bib'
-[801] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[801] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[801] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[801] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[827] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[870] bbl.pm:779> INFO - Output to main.bbl
+[139] biber-MSWIN64:342> INFO - === 
+[177] Biber.pm:421> INFO - Reading 'main.bcf'
+[334] Biber.pm:1002> INFO - Found 21 citekeys in bib section 0
+[352] Biber.pm:4487> INFO - Processing section 0
+[363] Biber.pm:4678> INFO - Looking for bibtex file 'reference.bib' for section 0
+[407] bibtex.pm:1713> INFO - LaTeX decoding ...
+[461] bibtex.pm:1519> INFO - Found BibTeX data source 'reference.bib'
+[899] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[899] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[899] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[899] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[932] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[990] bbl.pm:779> INFO - Output to main.bbl
+[991] Biber.pm:132> WARN - Duplicate entry key: 'songMotionEstimationMultiObject2025' in file 'reference.bib', skipping ...
+[991] Biber.pm:134> INFO - WARNINGS: 1

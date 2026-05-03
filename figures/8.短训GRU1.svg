@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="360" viewBox="0 0 1180 360">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
+</marker>
+</defs>
+<rect width="1180" height="360" fill="#F8FAFC"/>
+<rect x="48" y="112" width="160" height="150" rx="22" fill="#D8E1EB" stroke="none" stroke-width="0"/>
+<rect x="40" y="102" width="160" height="150" rx="22" fill="#EAF3FF" stroke="#2F80ED" stroke-width="3"/>
+<text x="120" y="177" fill="#0F172A" font-family="Microsoft YaHei" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">
+<tspan x="120" dy="-20.0">输入特征</tspan>
+<tspan x="120" dy="40">维度：5</tspan>
+</text>
+<line x1="200" y1="177" x2="245" y2="177" stroke="#475569" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="258" y="88" width="390" height="205" rx="24" fill="#D8E1EB" stroke="none" stroke-width="0"/>
+<rect x="250" y="78" width="390" height="205" rx="24" fill="#FFF5CC" stroke="#D99A00" stroke-width="3"/>
+<text x="445" y="144" fill="#0F172A" font-family="Microsoft YaHei" font-size="27" font-weight="700" text-anchor="middle" dominant-baseline="middle">
+<tspan x="445" dy="-39.0">单层 GRU</tspan>
+<tspan x="445" dy="39">隐式联合跟踪各类协方差</tspan>
+<tspan x="445" dy="39">维度：80</tspan>
+</text>
+<rect x="642" y="146" width="128" height="38" rx="18" fill="#FFF0D8" stroke="#D99A00" stroke-width="2"/>
+<text x="706" y="165" fill="#D99A00" font-family="Microsoft YaHei" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">
+<tspan x="706" dy="0.0">隐状态映射</tspan>
+</text>
+<line x1="640" y1="177" x2="760" y2="177" stroke="#475569" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="778" y="105" width="230" height="170" rx="22" fill="#D8E1EB" stroke="none" stroke-width="0"/>
+<rect x="770" y="95" width="230" height="170" rx="22" fill="#F1F5F9" stroke="#94A3B8" stroke-width="3"/>
+<text x="885" y="180" fill="#0F172A" font-family="Microsoft YaHei" font-size="26" font-weight="700" text-anchor="middle" dominant-baseline="middle">
+<tspan x="885" dy="-19.0">FC 输出层</tspan>
+<tspan x="885" dy="38">维度：80 → 160 → 32</tspan>
+</text>
+<line x1="1000" y1="177" x2="1045" y2="177" stroke="#475569" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="1058" y="105" width="110" height="170" rx="22" fill="#D8E1EB" stroke="none" stroke-width="0"/>
+<rect x="1050" y="95" width="110" height="170" rx="22" fill="#E8F8EC" stroke="#2F9E44" stroke-width="3"/>
+<text x="1105" y="180" fill="#0F172A" font-family="Microsoft YaHei" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1105" dy="-36.0">卡尔曼增益</tspan>
+<tspan x="1105" dy="36">Kₜ</tspan>
+<tspan x="1105" dy="36">维度：32</tspan>
+</text>
+</svg>

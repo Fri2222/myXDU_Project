@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1780" height="600" viewBox="0 0 1780 600">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
+</marker>
+</defs>
+<rect width="1780" height="600" fill="#F8FAFC"/>
+<rect x="48" y="222" width="150" height="150" rx="22" fill="#D8E1EB" stroke="none" stroke-width="0"/>
+<rect x="40" y="212" width="150" height="150" rx="22" fill="#EAF3FF" stroke="#2F80ED" stroke-width="3"/>
+<line x1="190" y1="287" x2="248" y2="287" stroke="#475569" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="258" y="210" width="200" height="174" rx="22" fill="#D8E1EB" stroke="none" stroke-width="0"/>
+<rect x="250" y="200" width="200" height="174" rx="22" fill="#F1F5F9" stroke="#94A3B8" stroke-width="3"/>
+<text x="350" y="282" fill="#0F172A" font-family="Microsoft YaHei" font-size="25" font-weight="700" text-anchor="middle" dominant-baseline="middle">
+<tspan x="350" dy="-18.5">FC 输入层</tspan>
+<tspan x="350" dy="37">多路特征提取</tspan>
+</text>
+<line x1="450" y1="287" x2="520" y2="287" stroke="#475569" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="528" y="210" width="250" height="174" rx="22" fill="#D8E1EB" stroke="none" stroke-width="0"/>
+<rect x="520" y="200" width="250" height="174" rx="22" fill="#FFE1EF" stroke="#E83E8C" stroke-width="3"/>
+<line x1="770" y1="240" x2="850" y2="150" stroke="#475569" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="770" y1="287" x2="850" y2="240" stroke="#475569" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="770" y1="334" x2="860" y2="452" stroke="#475569" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="858" y="80" width="330" height="180" rx="24" fill="#D8E1EB" stroke="none" stroke-width="0"/>
+<rect x="850" y="70" width="330" height="180" rx="24" fill="#F2E8FF" stroke="#8E44AD" stroke-width="3"/>
+<rect x="878" y="382" width="310" height="170" rx="24" fill="#D8E1EB" stroke="none" stroke-width="0"/>
+<rect x="870" y="372" width="310" height="170" rx="24" fill="#E6ECFF" stroke="#4C6EF5" stroke-width="3"/>
+<line x1="1015" y1="250" x2="1015" y2="372" stroke="#475569" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="955" y="270" width="126" height="54" rx="18" fill="#F5E8FF" stroke="#8E44AD" stroke-width="2"/>
+<text x="1018" y="297" fill="#8E44AD" font-family="Microsoft YaHei" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1018" dy="-15.5">降维映射</tspan>
+<tspan x="1018" dy="31">64 → 16</tspan>
+</text>
+<line x1="1180" y1="160" x2="1335" y2="255" stroke="#475569" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<line x1="1180" y1="458" x2="1335" y2="332" stroke="#475569" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="1348" y="218" width="170" height="160" rx="22" fill="#D8E1EB" stroke="none" stroke-width="0"/>
+<rect x="1340" y="208" width="170" height="160" rx="22" fill="#F1F5F9" stroke="#94A3B8" stroke-width="3"/>
+<line x1="1510" y1="288" x2="1562" y2="288" stroke="#475569" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+<text x="115" y="287" fill="#0F172A" font-family="Microsoft YaHei" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">
+<tspan x="115" dy="-40.0">输入特征</tspan>
+<tspan x="115" dy="40">F₂, F₄, Conf</tspan>
+<tspan x="115" dy="40">维度：13</tspan>
+</text>
+<text x="645" y="285" fill="#0F172A" font-family="Microsoft YaHei" font-size="26" font-weight="700" text-anchor="middle" dominant-baseline="middle">
+<tspan x="645" dy="-38.0">GRU 层</tspan>
+<tspan x="645" dy="38">跟踪状态噪声（Q）</tspan>
+<tspan x="645" dy="38">维度：64</tspan>
+</text>
+<text x="1015" y="160" fill="#0F172A" font-family="Microsoft YaHei" font-size="26" font-weight="700" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1015" dy="-38.0">GRU 层</tspan>
+<tspan x="1015" dy="38">跟踪预测协方差（Σ）</tspan>
+<tspan x="1015" dy="38">维度：64</tspan>
+</text>
+<text x="1025" y="455" fill="#0F172A" font-family="Microsoft YaHei" font-size="25" font-weight="700" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1025" dy="-37.0">GRU 层</tspan>
+<tspan x="1025" dy="37">跟踪残差协方差（S）</tspan>
+<tspan x="1025" dy="37">维度：64 → 16</tspan>
+</text>
+<text x="1425" y="286" fill="#0F172A" font-family="Microsoft YaHei" font-size="26" font-weight="700" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1425" dy="-19.0">FC 输出层</tspan>
+<tspan x="1425" dy="38">维度：32</tspan>
+</text>
+<rect x="1568" y="218" width="190" height="160" rx="22" fill="#D8E1EB" stroke="none" stroke-width="0"/>
+<rect x="1560" y="208" width="190" height="160" rx="22" fill="#E8F8EC" stroke="#2F9E44" stroke-width="3"/>
+<text x="1655" y="286" fill="#0F172A" font-family="Microsoft YaHei" font-size="27" font-weight="700" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1655" dy="-19.5">卡尔曼增益</tspan>
+<tspan x="1655" dy="39">修正量 ΔKₜ</tspan>
+</text>
+<rect x="785" y="212" width="54" height="34" rx="18" fill="#FFF0F6" stroke="#E83E8C" stroke-width="2"/>
+<text x="812" y="229" fill="#E83E8C" font-family="Microsoft YaHei" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">
+<tspan x="812" dy="0.0">Q</tspan>
+</text>
+<rect x="1210" y="96" width="128" height="40" rx="18" fill="#F5E8FF" stroke="#8E44AD" stroke-width="2"/>
+<text x="1274" y="116" fill="#8E44AD" font-family="Microsoft YaHei" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1274" dy="0.0">预测协方差</tspan>
+</text>
+<rect x="1202" y="418" width="128" height="40" rx="18" fill="#E8EDFF" stroke="#4C6EF5" stroke-width="2"/>
+<text x="1266" y="438" fill="#4C6EF5" font-family="Microsoft YaHei" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1266" dy="0.0">残差协方差</tspan>
+</text>
+</svg>
