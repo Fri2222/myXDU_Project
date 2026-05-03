@@ -331,9 +331,9 @@
       \verb{url}
       \verb https://ieeexplore.ieee.org/document/9733186/
       \endverb
-      \keyw{/unread,Data models,deep learning,Heuristic algorithms,Kalman filters,Mathematical models,Numerical models,Real-time systems,recurrent neural networks,Task analysis}
+      \keyw{Data models,deep learning,Heuristic algorithms,Kalman filters,Mathematical models,Numerical models,Real-time systems,recurrent neural networks,Task analysis}
     \endentry
-    \entry{zhangByteTrackMultiObjectTracking2022}{inproceedings}{}{}
+    \entry{zhangByteTrackMultiObjectTracking2022}{online}{}{}
       \name{author}{9}{}{%
         {{hash=fe8b7f3911294516753b2d51a6140997}{%
            family={Zhang},
@@ -448,23 +448,43 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Multi-object tracking (MOT) aims at estimating bounding boxes and identities of objects in videos. Most methods obtain identities by associating detection boxes whose scores are higher than a threshold. The objects with low detection scores, e.g. occluded objects, are simply thrown away, which brings non-negligible true object missing and fragmented trajectories. To solve this problem, we present a simple, effective and generic association method, tracking by associating almost every detection box instead of only the high score ones. For the low score detection boxes, we utilize their similarities with tracklets to recover true objects and filter out the background detections. When applied to 9 different state-of-the-art trackers, our method achieves consistent improvement on IDF1 score ranging from 1 to 10 points. To put forwards the state-of-the-art performance of MOT, we design a simple and strong tracker, named ByteTrack. For the first time, we achieve 80.3 MOTA, 77.3 IDF1 and 63.1 HOTA on the test set of MOT17 with 30 FPS running speed on a single V100 GPU. ByteTrack also achieves state-of-the-art performance on MOT20, HiEve and BDD100K tracking benchmarks. The source code, pre-trained models with deploy versions and tutorials of applying to other trackers are released at https://github.com/ifzhang/ByteTrack.}
-      \field{booktitle}{Proceedings of the European Conference on Computer Vision (ECCV)}
+      \field{day}{7}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arXiv}
       \field{langid}{american}
       \field{languageid}{english}
       \field{lansortorder}{4}
+      \field{month}{4}
+      \field{pubstate}{prepublished}
       \field{shorttitle}{{{ByteTrack}}}
       \field{title}{{{ByteTrack}}: {{Multi-Object Tracking}} by {{Associating Every Detection Box}}}
-      \field{usera}{C}
+      \field{urlday}{24}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{usera}{EB}
       \field{userd}{english}
       \field{userf}{english}
       \field{year}{2022}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2110.06864
+      \endverb
+      \verb{eprint}
+      \verb 2110.06864
+      \endverb
       \verb{file}
       \verb H:\Literature\Official\storage\QW6USQE6\Zhang 等 - 2022 - ByteTrack Multi-Object Tracking by Associating Every Detection Box.pdf
       \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2110.06864
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2110.06864
+      \endverb
       \keyw{Computer Science - Computer Vision and Pattern Recognition}
     \endentry
-    \entry{geYOLOXExceedingYOLO2021}{report}{}{}
+    \entry{geYOLOXExceedingYOLO2021}{online}{}{}
       \name{author}{5}{}{%
         {{hash=bfbcceb1c89856aa979311c5826ee1e8}{%
            family={Ge},
@@ -519,14 +539,8 @@
            given={Jian},
            giveni={J\bibinitperiod}}}%
       }
-      \list{institution}{1}{%
-        {arXiv}%
-      }
       \list{language}{1}{%
         {english}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
       }
       \strng{namehash}{b02d4ce418224fd58c5fdf1242139da5}
       \strng{fullhash}{6f5b463deab540da2fc24a0b9a0f671f}
@@ -545,19 +559,39 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{In this report, we present some experienced improvements to YOLO series, forming a new high-performance detector -- YOLOX. We switch the YOLO detector to an anchor-free manner and conduct other advanced detection techniques, i.e., a decoupled head and the leading label assignment strategy SimOTA to achieve state-of-the-art results across a large scale range of models: For YOLO-Nano with only 0.91M parameters and 1.08G FLOPs, we get 25.3\% AP on COCO, surpassing NanoDet by 1.8\% AP; for YOLOv3, one of the most widely used detectors in industry, we boost it to 47.3\% AP on COCO, outperforming the current best practice by 3.0\% AP; for YOLOX-L with roughly the same amount of parameters as YOLOv4-CSP, YOLOv5-L, we achieve 50.0\% AP on COCO at a speed of 68.9 FPS on Tesla V100, exceeding YOLOv5-L by 1.8\% AP. Further, we won the 1st Place on Streaming Perception Challenge (Workshop on Autonomous Driving at CVPR 2021) using a single YOLOX-L model. We hope this report can provide useful experience for developers and researchers in practical scenes, and we also provide deploy versions with ONNX, TensorRT, NCNN, and Openvino supported. Source code is at https://github.com/Megvii-BaseDetection/YOLOX.}
+      \field{day}{6}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arXiv}
       \field{langid}{english}
       \field{languageid}{english}
       \field{lansortorder}{4}
-      \field{number}{arXiv:2107.08430}
+      \field{month}{8}
+      \field{pubstate}{prepublished}
       \field{shorttitle}{{{YOLOX}}}
       \field{title}{{{YOLOX}}: {{Exceeding YOLO Series}} in 2021}
-      \field{usera}{R}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{usera}{EB}
       \field{userd}{english}
       \field{userf}{english}
       \field{year}{2021}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2107.08430
+      \endverb
+      \verb{eprint}
+      \verb 2107.08430
+      \endverb
       \verb{file}
       \verb H:\Literature\Official\storage\YNDWHUUP\Ge 等 - 2021 - YOLOX Exceeding YOLO Series in 2021.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2107.08430
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2107.08430
       \endverb
       \keyw{/unread,Computer Science - Computer Vision and Pattern Recognition}
     \endentry
@@ -940,142 +974,57 @@
       \endverb
       \keyw{/unread,Cameras,Computer Vision,Data Association,Extraterrestrial measurements,Kalman filters,Multiple Object Tracking,Standards,Tracking,Uncertainty}
     \endentry
-    \entry{RealTimeMultiObjectTracking}{inproceedings}{}{}
-      \name{author}{3}{}{%
-        {{hash=ca0724a3010f0a8c774baf95fdd595df}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Zhongdao},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=7f1ed47c0c1b22e46324b0745b5b65eb}{%
-           family={Zheng},
-           familyi={Z\bibinitperiod},
-           given={Liang},
-           giveni={L\bibinitperiod}}}%
-        {{hash=e0c544f9d75927521d513d97d25970ad}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Yixuan},
-           giveni={Y\bibinitperiod}}}%
-      }
-      \name{namea}{3}{}{%
-        {{hash=ca0724a3010f0a8c774baf95fdd595df}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Zhongdao},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=7f1ed47c0c1b22e46324b0745b5b65eb}{%
-           family={Zheng},
-           familyi={Z\bibinitperiod},
-           given={Liang},
-           giveni={L\bibinitperiod}}}%
-        {{hash=e0c544f9d75927521d513d97d25970ad}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Yixuan},
-           giveni={Y\bibinitperiod}}}%
-      }
+    \entry{RealTimeMultiObjectTracking}{online}{}{}
       \list{language}{1}{%
         {english}%
       }
-      \strng{namehash}{373482ee0e04d9c3237c5604f2bba859}
-      \strng{fullhash}{373482ee0e04d9c3237c5604f2bba859}
-      \strng{fullhashraw}{373482ee0e04d9c3237c5604f2bba859}
-      \strng{bibnamehash}{373482ee0e04d9c3237c5604f2bba859}
-      \strng{authorbibnamehash}{373482ee0e04d9c3237c5604f2bba859}
-      \strng{authornamehash}{373482ee0e04d9c3237c5604f2bba859}
-      \strng{authorfullhash}{373482ee0e04d9c3237c5604f2bba859}
-      \strng{authorfullhashraw}{373482ee0e04d9c3237c5604f2bba859}
-      \strng{nameabibnamehash}{373482ee0e04d9c3237c5604f2bba859}
-      \strng{nameanamehash}{373482ee0e04d9c3237c5604f2bba859}
-      \strng{nameafullhash}{373482ee0e04d9c3237c5604f2bba859}
-      \strng{nameafullhashraw}{373482ee0e04d9c3237c5604f2bba859}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the European Conference on Computer Vision (ECCV)}
       \field{langid}{english}
       \field{languageid}{english}
       \field{lansortorder}{4}
-      \field{title}{Towards Real-Time Multi-Object Tracking}
-      \field{usera}{C}
+      \field{title}{Towards {{Real-Time Multi-Object Tracking}} | {{Springer Nature Link}}}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{usera}{EB}
       \field{userd}{english}
-      \field{userf}{english}
-      \field{year}{2020}
-      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://link.springer.com/chapter/10.1007/978-3-030-58621-8_7
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/chapter/10.1007/978-3-030-58621-8_7
+      \endverb
       \keyw{/unread}
     \endentry
-    \entry{200401888FairMOTFairness}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=fe8b7f3911294516753b2d51a6140997}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Yifu},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=0f1c2ee9d3ecec731523b0dbaef97dfd}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Chunyu},
-           giveni={C\bibinitperiod}}}%
-        {{hash=1bd616b774bd66d7d77e025ac08c962d}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Xinggang},
-           giveni={X\bibinitperiod}}}%
-      }
-      \name{namea}{3}{}{%
-        {{hash=fe8b7f3911294516753b2d51a6140997}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Yifu},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=0f1c2ee9d3ecec731523b0dbaef97dfd}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Chunyu},
-           giveni={C\bibinitperiod}}}%
-        {{hash=1bd616b774bd66d7d77e025ac08c962d}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Xinggang},
-           giveni={X\bibinitperiod}}}%
-      }
+    \entry{200401888FairMOTFairness}{online}{}{}
       \list{language}{1}{%
         {english}%
       }
-      \strng{namehash}{9e83160e4be961651364f353fc2c35a8}
-      \strng{fullhash}{9e83160e4be961651364f353fc2c35a8}
-      \strng{fullhashraw}{9e83160e4be961651364f353fc2c35a8}
-      \strng{bibnamehash}{9e83160e4be961651364f353fc2c35a8}
-      \strng{authorbibnamehash}{9e83160e4be961651364f353fc2c35a8}
-      \strng{authornamehash}{9e83160e4be961651364f353fc2c35a8}
-      \strng{authorfullhash}{9e83160e4be961651364f353fc2c35a8}
-      \strng{authorfullhashraw}{9e83160e4be961651364f353fc2c35a8}
-      \strng{nameabibnamehash}{9e83160e4be961651364f353fc2c35a8}
-      \strng{nameanamehash}{9e83160e4be961651364f353fc2c35a8}
-      \strng{nameafullhash}{9e83160e4be961651364f353fc2c35a8}
-      \strng{nameafullhashraw}{9e83160e4be961651364f353fc2c35a8}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Computer Vision}
       \field{langid}{english}
       \field{languageid}{english}
       \field{lansortorder}{4}
-      \field{title}{FairMOT: On the Fairness of Detection and Re-Identification in Multiple Object Tracking}
-      \field{usera}{J}
+      \field{title}{[2004.01888] {{FairMOT}}: {{On}} the {{Fairness}} of {{Detection}} and {{Re-Identification}} in {{Multiple Object Tracking}}}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{usera}{EB}
       \field{userd}{english}
-      \field{userf}{english}
-      \field{volume}{129}
-      \field{year}{2021}
-      \field{dateera}{ce}
-      \field{pages}{3069\bibrangedash 3087}
-      \range{pages}{19}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2004.01888
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2004.01888
+      \endverb
       \keyw{/unread}
     \endentry
-    \entry{zengMOTREndtoEndMultipleObject}{inproceedings}{}{}
+    \entry{zengMOTREndtoEndMultipleObject}{online}{}{}
       \name{author}{6}{}{%
         {{hash=cf8347625ac023e9b6dce6a0e814d570}{%
            family={Zeng},
@@ -1140,8 +1089,14 @@
            given={Yichen},
            giveni={Y\bibinitperiod}}}%
       }
+      \list{institution}{1}{%
+        {arXiv.org}%
+      }
       \list{language}{1}{%
         {english}%
+      }
+      \list{organization}{1}{%
+        {arXiv.org}%
       }
       \strng{namehash}{8467c1f8667de20222e7f02b34d9741d}
       \strng{fullhash}{17ce128338fbf996699d7f06ce5540f7}
@@ -1160,91 +1115,52 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Temporal modeling of objects is a key challenge in multiple object tracking (MOT). Existing methods track by associating detections through motion-based and appearance-based similarity heuristics. The post-processing nature of association prevents end-to-end exploitation of temporal variations in video sequence. In this paper, we propose MOTR, which extends DETR and introduces track query to model the tracked instances in the entire video. Track query is transferred and updated frame-by-frame to perform iterative prediction over time. We propose tracklet-aware label assignment to train track queries and newborn object queries. We further propose temporal aggregation network and collective average loss to enhance temporal relation modeling. Experimental results on DanceTrack show that MOTR significantly outperforms state-of-the-art method, ByteTrack by 6.5\% on HOTA metric. On MOT17, MOTR outperforms our concurrent works, TrackFormer and TransTrack, on association performance. MOTR can serve as a stronger baseline for future research on temporal modeling and Transformer-based trackers. Code is available at https://github.com/megvii-research/MOTR.}
-      \field{booktitle}{Proceedings of the European Conference on Computer Vision (ECCV)}
       \field{langid}{english}
       \field{languageid}{english}
       \field{lansortorder}{4}
       \field{shorttitle}{{{MOTR}}}
       \field{title}{{{MOTR}}: {{End-to-End Multiple-Object Tracking}} with {{Transformer}}}
-      \field{usera}{C}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{usera}{EB}
       \field{userd}{english}
       \field{userf}{english}
-      \field{year}{2022}
-      \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{file}
       \verb H:\Literature\Official\storage\2IQURP9D\Zeng 等 - MOTR End-to-End Multiple-Object Tracking with Transformer.pdf
       \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2105.03247v4
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2105.03247v4
+      \endverb
       \keyw{/unread}
     \endentry
-    \entry{EstimationApplicationsTracking}{book}{}{}
-      \name{author}{3}{}{%
-        {{hash=a01ea5a6fd3b000f4e53c2b816b56101}{%
-           family={Bar-Shalom},
-           familyi={B\bibinithyphendelim S\bibinitperiod},
-           given={Yaakov},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=177a323e53ecf6bfaf34ce2fbd58cb2d}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={X.-Rong},
-           giveni={X\bibinithyphendelim R\bibinitperiod}}}%
-        {{hash=994eb6b343bb55a0df53333ef56b95fe}{%
-           family={Kirubarajan},
-           familyi={K\bibinitperiod},
-           given={Thiagalingam},
-           giveni={T\bibinitperiod}}}%
-      }
-      \name{namea}{3}{}{%
-        {{hash=a01ea5a6fd3b000f4e53c2b816b56101}{%
-           family={Bar-Shalom},
-           familyi={B\bibinithyphendelim S\bibinitperiod},
-           given={Yaakov},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=177a323e53ecf6bfaf34ce2fbd58cb2d}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={X.-Rong},
-           giveni={X\bibinithyphendelim R\bibinitperiod}}}%
-        {{hash=994eb6b343bb55a0df53333ef56b95fe}{%
-           family={Kirubarajan},
-           familyi={K\bibinitperiod},
-           given={Thiagalingam},
-           giveni={T\bibinitperiod}}}%
-      }
+    \entry{EstimationApplicationsTracking}{online}{}{}
       \list{language}{1}{%
         {english}%
       }
-      \list{location}{1}{%
-        {New York}%
-      }
-      \list{publisher}{1}{%
-        {John Wiley \& Sons}%
-      }
-      \strng{namehash}{cb5092b097a1b811babf5bb0cf11a33f}
-      \strng{fullhash}{cb5092b097a1b811babf5bb0cf11a33f}
-      \strng{fullhashraw}{cb5092b097a1b811babf5bb0cf11a33f}
-      \strng{bibnamehash}{cb5092b097a1b811babf5bb0cf11a33f}
-      \strng{authorbibnamehash}{cb5092b097a1b811babf5bb0cf11a33f}
-      \strng{authornamehash}{cb5092b097a1b811babf5bb0cf11a33f}
-      \strng{authorfullhash}{cb5092b097a1b811babf5bb0cf11a33f}
-      \strng{authorfullhashraw}{cb5092b097a1b811babf5bb0cf11a33f}
-      \strng{nameabibnamehash}{cb5092b097a1b811babf5bb0cf11a33f}
-      \strng{nameanamehash}{cb5092b097a1b811babf5bb0cf11a33f}
-      \strng{nameafullhash}{cb5092b097a1b811babf5bb0cf11a33f}
-      \strng{nameafullhashraw}{cb5092b097a1b811babf5bb0cf11a33f}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
       \field{languageid}{english}
       \field{lansortorder}{4}
-      \field{title}{Estimation with Applications to Tracking and Navigation: Theory, Algorithms and Software}
-      \field{usera}{M}
+      \field{title}{Estimation with {{Applications}} to {{Tracking}} and {{Navigation}} | {{Wiley Online Books}}}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{usera}{EB}
       \field{userd}{english}
-      \field{userf}{english}
-      \field{year}{2001}
-      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/book/10.1002/0471221279
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/book/10.1002/0471221279
+      \endverb
       \keyw{/unread}
     \endentry
     \entry{julierUnscentedFilteringNonlinear2004}{article}{}{}
@@ -1580,7 +1496,7 @@
       \endverb
       \keyw{/unread,扩展卡尔曼滤波,深度学习,数据驱动,长短期记忆神经网络}
     \endentry
-    \entry{shlezingerAIAidedKalmanFilters2025}{article}{}{}
+    \entry{shlezingerAIAidedKalmanFilters2025}{online}{}{}
       \name{author}{10}{}{%
         {{hash=072ab2fe82d486ad628191b0f6dff7da}{%
            family={Shlezinger},
@@ -1705,26 +1621,42 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The Kalman filter (KF) and its variants are among the most celebrated algorithms in signal processing. These methods are used for state estimation of dynamic systems by relying on mathematical representations in the form of simple state-space (SS) models, which may be crude and inaccurate descriptions of the underlying dynamics. Emerging data-centric artificial intelligence (AI) techniques tackle these tasks using deep neural networks (DNNs), which are model-agnostic. Recent developments illustrate the possibility of fusing DNNs with classic Kalman-type filtering, obtaining systems that learn to track in partially known dynamics. This article provides a tutorial-style overview of design approaches for incorporating AI in aiding KF-type algorithms. We review both generic and dedicated DNN architectures suitable for state estimation, and provide a systematic presentation of techniques for fusing AI tools with KFs and for leveraging partial SS modeling and data, categorizing design approaches into task-oriented and SS model-oriented. The usefulness of each approach in preserving the individual strengths of model-based KFs and data-driven DNNs is investigated in a qualitative and quantitative study, whose code is publicly available, illustrating the gains of hybrid model-based/data-driven designs. We also discuss existing challenges and future research directions that arise from fusing AI and Kalman-type algorithms.}
-      \field{journaltitle}{IEEE Signal Processing Magazine}
+      \field{day}{6}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arXiv}
       \field{langid}{english}
       \field{languageid}{english}
       \field{lansortorder}{4}
-      \field{number}{3}
-      \field{title}{Artificial Intelligence-Aided Kalman Filters: AI-Augmented Designs for Kalman-Type Algorithms}
-      \field{usera}{J}
+      \field{month}{5}
+      \field{pubstate}{prepublished}
+      \field{title}{{{AI-Aided Kalman Filters}}}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{usera}{EB}
       \field{userd}{english}
       \field{userf}{english}
-      \field{volume}{42}
       \field{year}{2025}
       \field{dateera}{ce}
-      \field{pages}{52\bibrangedash 76}
-      \range{pages}{25}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2410.12289
+      \endverb
+      \verb{eprint}
+      \verb 2410.12289
+      \endverb
       \verb{file}
       \verb H:\Literature\Official\storage\WDA7REKB\Shlezinger 等 - 2025 - AI-Aided Kalman Filters.pdf
       \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2410.12289
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2410.12289
+      \endverb
       \keyw{/unread,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing,Electrical Engineering and Systems Science - Systems and Control}
     \endentry
-    \entry{songMotionEstimationMultiObject2025}{report}{}{}
+    \entry{songMotionEstimationMultiObject2025}{online}{}{}
       \name{author}{7}{}{%
         {{hash=f3a962aa6f276bc9df310f6a9af8fa19}{%
            family={Song},
@@ -1799,14 +1731,8 @@
            given={Yucheng},
            giveni={Y\bibinitperiod}}}%
       }
-      \list{institution}{1}{%
-        {arXiv}%
-      }
       \list{language}{1}{%
         {english}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
       }
       \strng{namehash}{d4128d01e493a6947996417bc6780aa3}
       \strng{fullhash}{ce64f0b1af0392bd3bb3dda47fb14af1}
@@ -1825,18 +1751,38 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Motion estimation is a crucial component in multi-object tracking (MOT). It predicts the trajectory of objects by analyzing the changes in their positions in consecutive frames of images, reducing tracking failures and identity switches. The Kalman filter (KF) based on the linear constant-velocity model is one of the most commonly used methods in MOT. However, it may yield unsatisfactory results when KF's parameters are mismatched and objects move in non-stationary. In this work, we utilize the learning-aided filter to handle the motion estimation of MOT. In particular, we propose a novel method named Semantic-Independent KalmanNet (SIKNet), which encodes the state vector (the input feature) using a Semantic-Independent Encoder (SIE) by two steps. First, the SIE uses a 1D convolution with a kernel size of 1, which convolves along the dimension of homogeneous-semantic elements across different state vectors to encode independent semantic information. Then it employs a fully-connected layer and a nonlinear activation layer to encode nonlinear and cross-dependency information between heterogeneous-semantic elements. To independently evaluate the performance of the motion estimation module in MOT, we constructed a large-scale semi-simulated dataset from several open-source MOT datasets. Experimental results demonstrate that the proposed SIKNet outperforms the traditional KF and achieves superior robustness and accuracy than existing learning-aided filters. The code is available at (https://github.com/SongJgit/filternet and https://github.com/SongJgit/TBDTracker).}
+      \field{day}{14}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arXiv}
       \field{langid}{english}
       \field{languageid}{english}
       \field{lansortorder}{4}
-      \field{number}{arXiv:2509.11323}
+      \field{month}{9}
+      \field{pubstate}{prepublished}
       \field{title}{Motion {{Estimation}} for {{Multi-Object Tracking}} Using {{KalmanNet}} with {{Semantic-Independent Encoding}}}
-      \field{usera}{R}
+      \field{urlday}{29}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{usera}{EB}
       \field{userd}{english}
       \field{userf}{english}
       \field{year}{2025}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2509.11323
+      \endverb
+      \verb{eprint}
+      \verb 2509.11323
+      \endverb
       \verb{file}
       \verb H:\Literature\Official\storage\PSDZYFNY\Song 等 - 2025 - Motion Estimation for Multi-Object Tracking using KalmanNet with Semantic-Independent Encoding.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2509.11323
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2509.11323
       \endverb
       \keyw{/unread,Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition}
     \endentry
