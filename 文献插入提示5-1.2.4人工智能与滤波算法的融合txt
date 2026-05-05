@@ -1,0 +1,105 @@
+
+人工智能与卡尔曼滤波相融合
+【文献 1】
+
+文献名称：State of Art on State Estimation: Kalman Filter Driven by Machine Learning
+
+文献作者：Yuting Bai, Bin Yan, Chenguang Zhou, Tingli Su, Xuebo Jin
+
+链接：https://doi.org/10.1016/j.arcontrol.2023.100909
+
+文献主要内容：全面综述了卡尔曼滤波及其各类增强模型，指出传统卡尔曼滤波面临系统模型和噪声模型参数识别两大核心问题。将KF与神经网络的结合方式分为内部交叉组合和外部组合两类，总结了混合模型在精度和鲁棒性上优于单一模型驱动方法的特点。
+
+推荐插入位置：“将物理模型驱动的滤波理论与数据驱动的深度学习方法进行有机融合……便成为状态估计领域的一个重要研究方向”段末\cite{baiStateArtState2023}。
+
+推荐理由：该综述发表于SCI一区期刊，系统论述了KF与机器学习融合的背景、动机和分类体系，是支撑原文“混合驱动架构成为重要研究方向”这一论断的权威文献，已在原文中引用。
+
+
+【文献 2】
+
+文献名称：Artificial Intelligence-Aided Kalman Filters: AI-Augmented Designs for Kalman-Type Algorithms
+
+文献作者：Nir Shlezinger, Guy Revach, Anubhab Ghosh, Saikat Chatterjee, Shuo Tang, Tales Imbiriba, Jindrich Dunik, Ondrej Straka, Pau Closas, Yonina C. Eldar, C. Candan
+
+链接：https://doi.org/10.1109/MSP.2025.3569395
+
+文献主要内容：以教程式风格系统综述了将AI工具融入KF类算法的设计方法，将设计范式划分为任务导向和状态空间模型导向两类，综述了通用和专用DNN架构在状态估计中的应用，定性定量地展示了混合模型驱动/数据驱动设计的优势。
+
+推荐插入位置：“技术流派分类”部分的开头或末尾，作为分类体系的综述支撑。
+
+推荐理由：该综述发表于IEEE Signal Processing Magazine，由KalmanNet团队撰写，是AI+KF融合领域最权威的系统性学术总结，为原文的三类技术流派划分提供了宏观学术背景。
+
+
+三、第一类：神经网络辅助噪声协方差自适应估计
+【文献 3】
+
+文献名称：Neural Aided Adaptive Innovation-Based Invariant Kalman Filter
+
+文献作者：Barak Diker, Itzik Klein
+
+链接：https://arxiv.org/abs/2603.26709
+
+文献主要内容：提出一种轻量级神经网络，直接从原始惯性数据中估计过程噪声协方差参数，通过网络捕捉运动依赖和传感器依赖的噪声特性，实现对时变噪声的自适应估计，无需标注真实世界数据。
+
+推荐插入位置：“第一类是神经网络辅助噪声协方差自适应估计。该类方法仍采用标准卡尔曼滤波的递推结构，但利用神经网络根据历史观测残差或状态变化，实时调整过程噪声协方差矩阵Q或量测噪声协方差矩阵R”之后。
+
+推荐理由：该文献精准对应第一类混合架构的思路，即用神经网络直接估计噪声协方差，实现帧级自适应调整；发表于2026年，代表该方向的最新进展。
+
+
+【文献 4】
+
+文献名称：A Hybrid EKF-LSTM Framework with GA-Tuned Noise Covariance for Enhanced Time Series Forecasting
+
+文献作者：K. K. Kandregula, S. H. Krishnaveni
+
+链接：https://doi.org/10.1088/2631-8695/ad9e25
+
+文献主要内容：提出将扩展卡尔曼滤波与LSTM网络及多头注意力机制相结合的混合模型，利用LSTM学习时间序列中的时序依赖以改进未来状态预测，同时使用遗传算法优化过程噪声协方差矩阵。
+
+推荐插入位置：“第二类是神经网络替代运动模型。该类方法以循环神经网络（如LSTM或GRU）替代基于物理假设的状态转移方程”之后。
+
+推荐理由：该文献是LSTM替代传统物理运动模型的典型代表，直接支撑第二类混合架构的论述。
+
+【文献 5】
+
+文献名称：融合高阶容积卡尔曼滤波与LSTM的配电网动态状态估计
+
+文献作者：详见原文（发表于《电子与信息学报》，2025年）
+
+链接：https://jeit.ac.cn/article/2025/1009-5896/2025-12-001
+
+文献主要内容：提出利用LSTM模型对受攻击节点的量测数据进行时序预测与重构，以数据驱动方式补偿系统模型不确定性，体现了以神经网络辅助状态预测与误差补偿的设计思想。
+
+推荐插入位置：可作为“利用深度网络从数据中学习目标的运动规律”的补充引用。
+
+推荐理由：该文献为中文领域LSTM与滤波融合的代表性工作，有助于丰富中文文献引用。
+
+五、第三类：神经网络计算自适应卡尔曼增益
+【文献 6】
+
+文献名称：Application of Recurrent Neural-Network based Kalman Filter for Uncertain Target Models
+
+文献作者：详见原文（韩国国防科学研究所等，发表于KCI，2025年）
+
+链接：https://kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002929414
+
+文献主要内容：提出基于GRU-LSTM混合架构的RNN-Kalman滤波器，直接从数据中学习卡尔曼增益，无需精确的模型信息和噪声协方差信息，在多种线性和非线性跟踪问题中验证了优于传统KF/EKF/UKF的估计精度。
+
+推荐插入位置：“第三类是神经网络计算自适应卡尔曼增益。该类方法在保留标准卡尔曼滤波状态空间模型与预测-更新架构的基础上，以深度网络替代基于固定协方差矩阵的解析增益计算环节”之后。
+
+推荐理由：该文献与KalmanNet同属第三类混合架构，以GRU-LSTM混合网络直接输出卡尔曼增益，是支撑第三类混合架构论述的重要实证。
+
+六、时序网络与滤波残差建模
+【文献 7】
+
+文献名称：Real-Time Concentration Detection of Al Dust Using GRU-based Kalman Filtering Approach
+
+文献作者：详见原文（发表于Process Safety and Environmental Protection, 2024年）
+
+链接：https://doi.org/10.1016/j.psep.2024.06.014
+
+文献主要内容：提出将GRU与卡尔曼滤波方法相结合的框架，GRU负责处理动态和非线性特性并捕捉瞬时趋势，卡尔曼滤波器则利用其优越的状态估计能力融合GRU的实时预测与传感器量测，提供了更准确的系统状态估计。
+
+推荐插入位置：“以长短期记忆网络与门控循环单元为代表的时间序列模型……系统可以对目标复杂的非线性运动残差进行隐式建模”之后。
+
+推荐理由：该文献用GRU处理非线性动态、KF融合预测与量测的分工模式，精准对应原文关于时序网络用于滤波残差建模的论述。
