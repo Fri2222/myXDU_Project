@@ -121,7 +121,6 @@
   url = {http://arxiv.org/abs/2603.26709},
   urldate = {2026-05-03},
   abstract = {Autonomous platforms require accurate positioning to complete their tasks. To this end, a Kalman filter-based algorithms, such as the extended Kalman filter or invariant Kalman filter, utilizing inertial and external sensor fusion are applied. To cope with real-world scenarios, adaptive noise estimation methods have been developed primarily for classical Euclidean formulations. However, these methods remain largely unexplored in the tangent Lie space, despite it provides a principled geometric framework with favorable error dynamics on Lie groups. To fill this gap, we combine invariant filtering theory with neural-aided adaptive noise estimation in real-world settings. To this end, we derive a novel theoretical extension of classical innovation-based process noise adaptation formulated directly within the Lie-group framework. We further propose a lightweight neural network that estimates the process noise covariance parameters directly from raw inertial data. Trained entirely in a sim2real framework via domain adaptation, the network captures motion-dependent and sensor-dependent noise characteristics without requiring labeled real-world data. To examine our proposed neural-aided adaptive invariant Kalman filter, we focus on the challenging real-world scenario of autonomous underwater navigation. Experimental results demonstrate superior performance compared to existing methods in terms of position root mean square error. These results validate our sim2real pipeline and further confirm that geometric invariance significantly enhances learning-based adaptation and that adaptive noise estimation in the tangent Lie space offers a powerful mechanism for improving navigation accuracy in nonlinear autonomous platforms.},
-  pubstate = {prepublished},
   keywords = {/unread,Computer Science - Robotics,Electrical Engineering and Systems Science - Signal Processing,Electrical Engineering and Systems Science - Systems and Control},
   file = {H:\Literature\Official\storage\6G8WK8S7\Diker和Klein - 2026 - Neural Aided Adaptive Innovation-Based Invariant Kalman Filter.pdf}
 }
@@ -140,8 +139,12 @@
   keywords = {/unread}
 }
 
-@online{EstimationApplicationsTracking,
-  title = {Estimation with {{Applications}} to {{Tracking}} and {{Navigation}} | {{Wiley Online Books}}},
+@book{EstimationApplicationsTracking,
+  title = {Estimation with {{Applications}} to {{Tracking}} and {{Navigation}}: {{Theory}}, {{Algorithms}} and {{Software}}},
+  author = {Bar-Shalom, Yaakov and Li, X. Rong and Kirubarajan, Thiagalingam},
+  date = {2001},
+  location = {New York},
+  publisher = {John Wiley \& Sons},
   url = {https://onlinelibrary.wiley.com/doi/book/10.1002/0471221279},
   urldate = {2026-05-02},
   keywords = {/unread}
@@ -166,9 +169,19 @@
   url = {http://arxiv.org/abs/1712.01406},
   urldate = {2026-05-02},
   abstract = {This article presents an up-to-date tutorial review of nonlinear Bayesian estimation. State estimation for nonlinear systems has been a challenge encountered in a wide range of engineering fields, attracting decades of research effort. To date, one of the most promising and popular approaches is to view and address the problem from a Bayesian probabilistic perspective, which enables estimation of the unknown state variables by tracking their probabilistic distribution or statistics (e.g., mean and covariance) conditioned on the system's measurement data. This article offers a systematic introduction of the Bayesian state estimation framework and reviews various Kalman filtering (KF) techniques, progressively from the standard KF for linear systems to extended KF, unscented KF and ensemble KF for nonlinear systems. It also overviews other prominent or emerging Bayesian estimation methods including the Gaussian filtering, Gaussian-sum filtering, particle filtering and moving horizon estimation and extends the discussion of state estimation forward to more complicated problems such as simultaneous state and parameter/input estimation.},
-  pubstate = {prepublished},
   keywords = {/unread,Electrical Engineering and Systems Science - Systems and Control},
   file = {H:\Literature\Official\storage\A239WX98\Fang 等 - 2017 - Nonlinear Bayesian Estimation From Kalman Filtering to a Broader Horizon.pdf}
+}
+
+@inproceedings{FasterRCNNRealTime,
+  title = {Faster {{R-CNN}}: {{Towards Real-Time Object Detection}} with {{Region Proposal Networks}}},
+  booktitle = {Advances in Neural Information Processing Systems 28 ({{NIPS}} 2015)},
+  author = {Ren, Shaoqing and He, Kaiming and Girshick, Ross and Sun, Jian},
+  date = {2015},
+  pages = {91--99},
+  url = {https://arxiv.org/abs/1506.01497},
+  urldate = {2026-05-05},
+  keywords = {/unread}
 }
 
 @online{FullArticleReview,
@@ -190,7 +203,6 @@
   url = {http://arxiv.org/abs/2107.08430},
   urldate = {2026-05-02},
   abstract = {In this report, we present some experienced improvements to YOLO series, forming a new high-performance detector -- YOLOX. We switch the YOLO detector to an anchor-free manner and conduct other advanced detection techniques, i.e., a decoupled head and the leading label assignment strategy SimOTA to achieve state-of-the-art results across a large scale range of models: For YOLO-Nano with only 0.91M parameters and 1.08G FLOPs, we get 25.3\% AP on COCO, surpassing NanoDet by 1.8\% AP; for YOLOv3, one of the most widely used detectors in industry, we boost it to 47.3\% AP on COCO, outperforming the current best practice by 3.0\% AP; for YOLOX-L with roughly the same amount of parameters as YOLOv4-CSP, YOLOv5-L, we achieve 50.0\% AP on COCO at a speed of 68.9 FPS on Tesla V100, exceeding YOLOv5-L by 1.8\% AP. Further, we won the 1st Place on Streaming Perception Challenge (Workshop on Autonomous Driving at CVPR 2021) using a single YOLOX-L model. We hope this report can provide useful experience for developers and researchers in practical scenes, and we also provide deploy versions with ONNX, TensorRT, NCNN, and Openvino supported. Source code is at https://github.com/Megvii-BaseDetection/YOLOX.},
-  pubstate = {prepublished},
   keywords = {/unread,Computer Science - Computer Vision and Pattern Recognition},
   file = {H:\Literature\Official\storage\YNDWHUUP\Ge 等 - 2021 - YOLOX Exceeding YOLO Series in 2021.pdf}
 }
@@ -207,15 +219,45 @@
   url = {http://arxiv.org/abs/2107.08430},
   urldate = {2026-05-03},
   abstract = {In this report, we present some experienced improvements to YOLO series, forming a new high-performance detector -- YOLOX. We switch the YOLO detector to an anchor-free manner and conduct other advanced detection techniques, i.e., a decoupled head and the leading label assignment strategy SimOTA to achieve state-of-the-art results across a large scale range of models: For YOLO-Nano with only 0.91M parameters and 1.08G FLOPs, we get 25.3\% AP on COCO, surpassing NanoDet by 1.8\% AP; for YOLOv3, one of the most widely used detectors in industry, we boost it to 47.3\% AP on COCO, outperforming the current best practice by 3.0\% AP; for YOLOX-L with roughly the same amount of parameters as YOLOv4-CSP, YOLOv5-L, we achieve 50.0\% AP on COCO at a speed of 68.9 FPS on Tesla V100, exceeding YOLOv5-L by 1.8\% AP. Further, we won the 1st Place on Streaming Perception Challenge (Workshop on Autonomous Driving at CVPR 2021) using a single YOLOX-L model. We hope this report can provide useful experience for developers and researchers in practical scenes, and we also provide deploy versions with ONNX, TensorRT, NCNN, and Openvino supported. Source code is at https://github.com/Megvii-BaseDetection/YOLOX.},
-  pubstate = {prepublished},
   keywords = {/unread,Computer Science - Computer Vision and Pattern Recognition},
   file = {H:\Literature\Official\storage\THCH2USM\Ge 等 - 2021 - YOLOX Exceeding YOLO Series in 2021.pdf}
 }
 
-@online{HTMLYueDuFanGaoSuQiangJiDongMuBiaoDuoDanXieTongTanCeYuLanJieFuGaiFangFaYanJiu,
-  title = {{{HTML阅读-反高速强机动目标多弹协同探测与拦截覆盖方法研究}}},
+@inproceedings{girshickFastRCNN2015,
+  title = {Fast {{R-CNN}}},
+  booktitle = {2015 {{IEEE International Conference}} on {{Computer Vision}} ({{ICCV}})},
+  author = {Girshick, Ross},
+  date = {2015-12},
+  pages = {1440--1448},
+  doi = {10.1109/ICCV.2015.169},
+  url = {https://arxiv.org/abs/1504.08083},
+  urldate = {2026-05-05},
+  keywords = {/unread,Computer Science - Computer Vision and Pattern Recognition},
+  file = {H:\Literature\Official\storage\Q9YSSJZ5\Girshick - 2015 - Fast R-CNN.pdf}
+}
+
+@inproceedings{girshickRichFeatureHierarchies2014,
+  title = {Rich {{Feature Hierarchies}} for {{Accurate Object Detection}} and {{Semantic Segmentation}}},
+  booktitle = {2014 {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}}},
+  author = {Girshick, Ross and Donahue, Jeff and Darrell, Trevor and Malik, Jitendra},
+  date = {2014-06},
+  pages = {580--587},
+  issn = {1063-6919},
+  doi = {10.1109/CVPR.2014.81},
+  url = {https://ieeexplore.ieee.org/document/6909475},
+  urldate = {2026-05-05},
+  abstract = {Object detection performance, as measured on the canonical PASCAL VOC dataset, has plateaued in the last few years. The best-performing methods are complex ensemble systems that typically combine multiple low-level image features with high-level context. In this paper, we propose a simple and scalable detection algorithm that improves mean average precision (mAP) by more than 30\% relative to the previous best result on VOC 2012 – achieving a mAP of 53.3\%. Our approach combines two key insights: (1) one can apply high-capacity convolutional neural networks (CNNs) to bottom-up region proposals in order to localize and segment objects and (2) when labeled training data is scarce, supervised pre-training for an auxiliary task, followed by domain-specific fine-tuning, yields a significant performance boost. Since we combine region proposals with CNNs, we call our method R-CNN: Regions with CNN features. We also present experiments that provide insight into what the network learns, revealing a rich hierarchy of image features. Source code for the complete system is available at http://www.cs.berkeley.edu/ rbg/rcnn.},
+  eventtitle = {2014 {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}}},
+  keywords = {/unread,Feature extraction,Object detection,Proposals,Support vector machines,Training,Vectors,Visualization}
+}
+
+@online{liResearchCooperativeDetectionInterception2025,
+  title = {反高速强机动目标多弹协同探测与拦截覆盖方法研究},
+  author = {{李昊} and others},
+  date = {2025},
   url = {https://kns.cnki.net/reader/xml?invoice=v2dm32wqjGIwcWGvMfBHYWjUsQzvn2lyDkByRqNrz2vXPRjcEixLMaxvuftG9hk8XpVmquFfHYf9lwJLmxVTm4zNR%2FDYxhgNWwK82viypvhDCYJn5H2pgylMZzko8B7%2FG7XoIV%2BzbKLpwtb%2Bce5hRgz40laJqEZTF5TYAuRiPkg%3D&platform=NZKPT&sourcetype=nxgp&product=CJFQ&filename=XDFJ202505012&tablename=cjfdlast2025&type=JOURNAL&scope=readonline&cflag=html&dflag=xml&pages=&language=CHS&trial=&nonce=8967345CDD1140A2B0D0946B5B8D6C36&loginType=trialRead},
   urldate = {2026-05-03},
+  langid = {chinese},
   keywords = {/unread}
 }
 
@@ -226,9 +268,13 @@
   keywords = {/unread}
 }
 
-@online{JiYuBanJianDuGRUKalmanLuBoQiDe3DDuoMuBiaoGenZongArxivDeepPaper,
-  title = {{{基于半监督GRU-Kalman滤波器的3D多目标跟踪}} | {{Arxiv}} - {{DeepPaper}}},
-  url = {https://arxiv.deeppaper.ai/papers/2411.08433v1},
+@online{wang3DMultiObjectTracking2024,
+  title = {3D {{Multi-Object Tracking}} with {{Semi-Supervised GRU-Kalman Filter}}},
+  author = {Wang, X. and Liu, J. and Feng, M. and others},
+  date = {2024},
+  eprint = {2411.08433},
+  eprinttype = {arXiv},
+  url = {https://arxiv.org/abs/2411.08433},
   urldate = {2026-05-03},
   keywords = {/unread}
 }
@@ -373,7 +419,6 @@
   url = {http://arxiv.org/abs/1811.10984},
   urldate = {2026-05-03},
   abstract = {Identity Switching remains one of the main difficulties Multiple Object Tracking (MOT) algorithms have to deal with. Many state-of-the-art approaches now use sequence models to solve this problem but their training can be affected by biases that decrease their efficiency. In this paper, we introduce a new training procedure that confronts the algorithm to its own mistakes while explicitly attempting to minimize the number of switches, which results in better training. We propose an iterative scheme of building a rich training set and using it to learn a scoring function that is an explicit proxy for the target tracking metric. Whether using only simple geometric features or more sophisticated ones that also take appearance into account, our approach outperforms the state-of-the-art on several MOT benchmarks.},
-  pubstate = {prepublished},
   keywords = {/unread,Computer Science - Computer Vision and Pattern Recognition},
   file = {H:\Literature\Official\storage\BUZ34T56\Maksai和Fua - 2018 - Eliminating Exposure Bias and Loss-Evaluation Mismatch in Multiple Object Tracking.pdf}
 }
@@ -383,6 +428,19 @@
   url = {https://link.springer.com/article/10.1007/s40747-022-00946-9},
   urldate = {2026-05-03},
   keywords = {/unread}
+}
+
+@online{oksuzImbalanceProblemsObject,
+  title = {Imbalance {{Problems}} in {{Object Detection}}: {{A Review}}},
+  shorttitle = {Imbalance {{Problems}} in {{Object Detection}}},
+  author = {Oksuz, Kemal and Cam, Baris Can and Kalkan, Sinan and Akbas, Emre},
+  url = {https://arxiv.org/abs/1909.00169v3},
+  urldate = {2026-05-05},
+  abstract = {In this paper, we present a comprehensive review of the imbalance problems in object detection. To analyze the problems in a systematic manner, we introduce a problem-based taxonomy. Following this taxonomy, we discuss each problem in depth and present a unifying yet critical perspective on the solutions in the literature. In addition, we identify major open issues regarding the existing imbalance problems as well as imbalance problems that have not been discussed before. Moreover, in order to keep our review up to date, we provide an accompanying webpage which catalogs papers addressing imbalance problems, according to our problem-based taxonomy. Researchers can track newer studies on this webpage available at: https://github.com/kemaloksuz/ObjectDetectionImbalance .},
+  langid = {english},
+  organization = {arXiv.org},
+  keywords = {/unread},
+  file = {H:\Literature\Official\storage\2Y9R2X99\Oksuz 等 - Imbalance Problems in Object Detection A Review.pdf}
 }
 
 @article{oksuzImbalanceProblemsObject2021,
@@ -403,11 +461,30 @@
   file = {H:\Literature\Official\storage\WWS64ZCX\Oksuz 等 - 2021 - Imbalance Problems in Object Detection A Review.pdf}
 }
 
-@online{RealTimeMultiObjectTracking,
-  title = {Towards {{Real-Time Multi-Object Tracking}} | {{Springer Nature Link}}},
+@inproceedings{RealTimeMultiObjectTracking,
+  title = {Towards {{Real-Time Multi-Object Tracking}}},
+  booktitle = {Computer Vision -- {{ECCV}} 2020 Workshops},
+  author = {Wang, Zhongdao and Zheng, Liang and Liu, Yixuan and Li, Shengjin},
+  date = {2020},
   url = {https://link.springer.com/chapter/10.1007/978-3-030-58621-8_7},
   urldate = {2026-05-02},
   keywords = {/unread}
+}
+
+@inproceedings{redmonYOLO9000BetterFaster2017,
+  title = {{{YOLO9000}}: {{Better}}, {{Faster}}, {{Stronger}}},
+  shorttitle = {{{YOLO9000}}},
+  booktitle = {2017 {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}} ({{CVPR}})},
+  author = {Redmon, Joseph and Farhadi, Ali},
+  date = {2017-07},
+  pages = {6517--6525},
+  issn = {1063-6919},
+  doi = {10.1109/CVPR.2017.690},
+  url = {https://ieeexplore.ieee.org/document/8100173},
+  urldate = {2026-05-05},
+  abstract = {We introduce YOLO9000, a state-of-the-art, real-time object detection system that can detect over 9000 object categories. First we propose various improvements to the YOLO detection method, both novel and drawn from prior work. The improved model, YOLOv2, is state-of-the-art on standard detection tasks like PASCAL VOC and COCO. Using a novel, multi-scale training method the same YOLOv2 model can run at varying sizes, offering an easy tradeoff between speed and accuracy. At 67 FPS, YOLOv2 gets 76.8 mAP on VOC 2007. At 40 FPS, YOLOv2 gets 78.6 mAP, outperforming state-of-the-art methods like Faster RCNN with ResNet and SSD while still running significantly faster. Finally we propose a method to jointly train on object detection and classification. Using this method we train YOLO9000 simultaneously on the COCO detection dataset and the ImageNet classification dataset. Our joint training allows YOLO9000 to predict detections for object classes that dont have labelled detection data. We validate our approach on the ImageNet detection task. YOLO9000 gets 19.7 mAP on the ImageNet detection validation set despite only having detection data for 44 of the 200 classes. On the 156 classes not in COCO, YOLO9000 gets 16.0 mAP. YOLO9000 predicts detections for more than 9000 different object categories, all in real-time.},
+  eventtitle = {2017 {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}} ({{CVPR}})},
+  keywords = {/unread,Detectors,Feature extraction,Image resolution,Object detection,Real-time systems,Training}
 }
 
 @article{reidAlgorithmTrackingMultiple1979,
@@ -446,19 +523,25 @@
   file = {H\:\\Literature\\Official\\storage\\2TC9SSKH\\Revach 等 - 2022 - KalmanNet Neural Network Aided Kalman Filtering for Partially Known Dynamics.pdf;H\:\\Literature\\Official\\storage\\ENU5S6AZ\\Revach 等 - 2022 - KalmanNet Neural Network Aided Kalman Filtering for Partially Known Dynamics.pdf;H\:\\Literature\\Official\\storage\\QHSNQ265\\Revach 等 - 2022 - KalmanNet Neural Network Aided Kalman Filtering for Partially Known Dynamics.pdf;H\:\\Literature\\Official\\storage\\UT8NUVYR\\Revach 等 - 2022 - KalmanNet Neural Network Aided Kalman Filtering for Partially Known Dynamics.pdf;H\:\\Literature\\Official\\storage\\WH7MXZU2\\Revach 等 - 2022 - KalmanNet Neural Network Aided Kalman Filtering for Partially Known Dynamics.pdf}
 }
 
-@online{shlezingerAIAidedKalmanFilters2025,
-  title = {{{AI-Aided Kalman Filters}}},
-  author = {Shlezinger, Nir and Revach, Guy and Ghosh, Anubhab and Chatterjee, Saikat and Tang, Shuo and Imbiriba, Tales and Dunik, Jindrich and Straka, Ondrej and Closas, Pau and Eldar, Yonina C.},
-  date = {2025-05-06},
-  eprint = {2410.12289},
-  eprinttype = {arXiv},
-  eprintclass = {cs},
-  doi = {10.48550/arXiv.2410.12289},
-  url = {http://arxiv.org/abs/2410.12289},
-  urldate = {2026-05-02},
-  abstract = {The Kalman filter (KF) and its variants are among the most celebrated algorithms in signal processing. These methods are used for state estimation of dynamic systems by relying on mathematical representations in the form of simple state-space (SS) models, which may be crude and inaccurate descriptions of the underlying dynamics. Emerging data-centric artificial intelligence (AI) techniques tackle these tasks using deep neural networks (DNNs), which are model-agnostic. Recent developments illustrate the possibility of fusing DNNs with classic Kalman-type filtering, obtaining systems that learn to track in partially known dynamics. This article provides a tutorial-style overview of design approaches for incorporating AI in aiding KF-type algorithms. We review both generic and dedicated DNN architectures suitable for state estimation, and provide a systematic presentation of techniques for fusing AI tools with KFs and for leveraging partial SS modeling and data, categorizing design approaches into task-oriented and SS model-oriented. The usefulness of each approach in preserving the individual strengths of model-based KFs and data-driven DNNs is investigated in a qualitative and quantitative study, whose code is publicly available, illustrating the gains of hybrid model-based/data-driven designs. We also discuss existing challenges and future research directions that arise from fusing AI and Kalman-type algorithms.},
-  pubstate = {prepublished},
-  keywords = {/unread,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing,Electrical Engineering and Systems Science - Systems and Control},
+@online{RichFeatureHierarchies,
+  title = {Rich {{Feature Hierarchies}} for {{Accurate Object Detection}} and {{Semantic Segmentation}} | {{IEEE Conference Publication}} | {{IEEE Xplore}}},
+  url = {https://ieeexplore.ieee.org/document/6909475},
+  urldate = {2026-05-05},
+  keywords = {/unread}
+}
+
+@article{shlezingerAIAidedKalmanFilters2025,
+  title = {Artificial {{Intelligence-Aided Kalman Filters}}: {{AI-Augmented Designs}} for {{Kalman-Type Algorithms}}},
+  author = {Shlezinger, Nir and Revach, Guy and Ghosh, Anubhab and Chatterjee, Saikat and Tang, Shuo and Imbiriba, Tales and Dunik, Jindrich and Straka, Ondrej and Closas, Pau and Eldar, Yonina C. and Candan, C.},
+  date = {2025},
+  journaltitle = {IEEE Signal Processing Magazine},
+  volume = {42},
+  number = {3},
+  pages = {52--76},
+  doi = {10.1109/MSP.2025.3569395},
+  url = {https://doi.org/10.1109/MSP.2025.3569395},
+  urldate = {2026-05-05},
+  keywords = {/unread,Kalman filters,Machine learning,Signal processing,State estimation},
   file = {H:\Literature\Official\storage\WDA7REKB\Shlezinger 等 - 2025 - AI-Aided Kalman Filters.pdf}
 }
 
@@ -473,7 +556,6 @@
   url = {http://arxiv.org/abs/2509.18451},
   urldate = {2026-05-03},
   abstract = {Unpredictable movement patterns and small visual mark make precise tracking of fast-moving tiny objects like a racquetball one of the challenging problems in computer vision. This challenge is particularly relevant for sport robotics applications, where lightweight and accurate tracking systems can improve robot perception and planning capabilities. While Kalman filter-based tracking methods have shown success in general object tracking scenarios, their performance degrades substantially when dealing with rapidly moving objects that exhibit irregular bouncing behavior. In this study, we evaluate the performance of five state-of-the-art Kalman filter-based tracking methods-OCSORT, DeepOCSORT, ByteTrack, BoTSORT, and StrongSORT-using a custom dataset containing 10,000 annotated racquetball frames captured at 720p-1280p resolution. We focus our analysis on two critical performance factors: inference speed and update frequency per image, examining how these parameters affect tracking accuracy and reliability for fast-moving tiny objects. Our experimental evaluation across four distinct scenarios reveals that DeepOCSORT achieves the lowest tracking error with an average ADE of 31.15 pixels compared to ByteTrack's 114.3 pixels, while ByteTrack demonstrates the fastest processing at 26.6ms average inference time versus DeepOCSORT's 26.8ms. However, our results show that all Kalman filter-based trackers exhibit significant tracking drift with spatial errors ranging from 3-11cm (ADE values: 31-114 pixels), indicating fundamental limitations in handling the unpredictable motion patterns of fast-moving tiny objects like racquetballs. Our analysis demonstrates that current tracking approaches require substantial improvements, with error rates 3-4x higher than standard object tracking benchmarks, highlighting the need for specialized methodologies for fast-moving tiny object tracking applications.},
-  pubstate = {prepublished},
   keywords = {/unread,Computer Science - Computer Vision and Pattern Recognition},
   file = {H:\Literature\Official\storage\KKVNMPX4\Singh 等 - 2025 - An Analysis of Kalman Filter based Object Tracking Methods for Fast-Moving Tiny Objects.pdf}
 }
@@ -489,25 +571,8 @@
   url = {http://arxiv.org/abs/2509.11323},
   urldate = {2026-04-29},
   abstract = {Motion estimation is a crucial component in multi-object tracking (MOT). It predicts the trajectory of objects by analyzing the changes in their positions in consecutive frames of images, reducing tracking failures and identity switches. The Kalman filter (KF) based on the linear constant-velocity model is one of the most commonly used methods in MOT. However, it may yield unsatisfactory results when KF's parameters are mismatched and objects move in non-stationary. In this work, we utilize the learning-aided filter to handle the motion estimation of MOT. In particular, we propose a novel method named Semantic-Independent KalmanNet (SIKNet), which encodes the state vector (the input feature) using a Semantic-Independent Encoder (SIE) by two steps. First, the SIE uses a 1D convolution with a kernel size of 1, which convolves along the dimension of homogeneous-semantic elements across different state vectors to encode independent semantic information. Then it employs a fully-connected layer and a nonlinear activation layer to encode nonlinear and cross-dependency information between heterogeneous-semantic elements. To independently evaluate the performance of the motion estimation module in MOT, we constructed a large-scale semi-simulated dataset from several open-source MOT datasets. Experimental results demonstrate that the proposed SIKNet outperforms the traditional KF and achieves superior robustness and accuracy than existing learning-aided filters. The code is available at (https://github.com/SongJgit/filternet and https://github.com/SongJgit/TBDTracker).},
-  pubstate = {prepublished},
   keywords = {/unread,Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition},
   file = {H:\Literature\Official\storage\PSDZYFNY\Song 等 - 2025 - Motion Estimation for Multi-Object Tracking using KalmanNet with Semantic-Independent Encoding.pdf}
-}
-
-@online{songMotionEstimationMultiObject2025,
-  title = {Motion {{Estimation}} for {{Multi-Object Tracking}} Using {{KalmanNet}} with {{Semantic-Independent Encoding}}},
-  author = {Song, Jian and Mei, Wei and Xu, Yunfeng and Fu, Qiang and Kou, Renke and Bu, Lina and Long, Yucheng},
-  date = {2025-09-14},
-  eprint = {2509.11323},
-  eprinttype = {arXiv},
-  eprintclass = {cs},
-  doi = {10.48550/arXiv.2509.11323},
-  url = {http://arxiv.org/abs/2509.11323},
-  urldate = {2026-04-29},
-  abstract = {Motion estimation is a crucial component in multi-object tracking (MOT). It predicts the trajectory of objects by analyzing the changes in their positions in consecutive frames of images, reducing tracking failures and identity switches. The Kalman filter (KF) based on the linear constant-velocity model is one of the most commonly used methods in MOT. However, it may yield unsatisfactory results when KF's parameters are mismatched and objects move in non-stationary. In this work, we utilize the learning-aided filter to handle the motion estimation of MOT. In particular, we propose a novel method named Semantic-Independent KalmanNet (SIKNet), which encodes the state vector (the input feature) using a Semantic-Independent Encoder (SIE) by two steps. First, the SIE uses a 1D convolution with a kernel size of 1, which convolves along the dimension of homogeneous-semantic elements across different state vectors to encode independent semantic information. Then it employs a fully-connected layer and a nonlinear activation layer to encode nonlinear and cross-dependency information between heterogeneous-semantic elements. To independently evaluate the performance of the motion estimation module in MOT, we constructed a large-scale semi-simulated dataset from several open-source MOT datasets. Experimental results demonstrate that the proposed SIKNet outperforms the traditional KF and achieves superior robustness and accuracy than existing learning-aided filters. The code is available at (https://github.com/SongJgit/filternet and https://github.com/SongJgit/TBDTracker).},
-  pubstate = {prepublished},
-  keywords = {/unread,Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition},
-  file = {H:\Literature\Official\storage\7QMRWIMR\Song 等 - 2025 - Motion Estimation for Multi-Object Tracking using KalmanNet with Semantic-Independent Encoding.pdf}
 }
 
 @online{songMotionEstimationMultiObject2025b,
@@ -521,15 +586,15 @@
   url = {http://arxiv.org/abs/2509.11323},
   urldate = {2026-05-03},
   abstract = {Motion estimation is a crucial component in multi-object tracking (MOT). It predicts the trajectory of objects by analyzing the changes in their positions in consecutive frames of images, reducing tracking failures and identity switches. The Kalman filter (KF) based on the linear constant-velocity model is one of the most commonly used methods in MOT. However, it may yield unsatisfactory results when KF's parameters are mismatched and objects move in non-stationary. In this work, we utilize the learning-aided filter to handle the motion estimation of MOT. In particular, we propose a novel method named Semantic-Independent KalmanNet (SIKNet), which encodes the state vector (the input feature) using a Semantic-Independent Encoder (SIE) by two steps. First, the SIE uses a 1D convolution with a kernel size of 1, which convolves along the dimension of homogeneous-semantic elements across different state vectors to encode independent semantic information. Then it employs a fully-connected layer and a nonlinear activation layer to encode nonlinear and cross-dependency information between heterogeneous-semantic elements. To independently evaluate the performance of the motion estimation module in MOT, we constructed a large-scale semi-simulated dataset from several open-source MOT datasets. Experimental results demonstrate that the proposed SIKNet outperforms the traditional KF and achieves superior robustness and accuracy than existing learning-aided filters. The code is available at (https://github.com/SongJgit/filternet and https://github.com/SongJgit/TBDTracker).},
-  pubstate = {prepublished},
   keywords = {/unread,Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition},
   file = {H:\Literature\Official\storage\745P8IHK\Song 等 - 2025 - Motion Estimation for Multi-Object Tracking using KalmanNet with Semantic-Independent Encoding.pdf}
 }
 
-@book{stadlerUtilizationOccludedDetections2026,
+@book{stadlerUtilizationOccludedDetections2024,
   title = {Utilization of {{Occluded Detections}} and {{Target Information}} in {{Multi-Person Tracking}}},
   author = {Stadler, Daniel},
-  date = {2026-03-13},
+  date = {2026},
+  location = {Karlsruhe},
   publisher = {KIT Scientific Publishing},
   doi = {10.5445/KSP/1000189811},
   url = {https://www.ksp.kit.edu/books/m/10.5445/KSP/1000189811},
@@ -656,7 +721,6 @@ AIF: 1.411},
   url = {http://arxiv.org/abs/1703.07402},
   urldate = {2026-05-03},
   abstract = {Simple Online and Realtime Tracking (SORT) is a pragmatic approach to multiple object tracking with a focus on simple, effective algorithms. In this paper, we integrate appearance information to improve the performance of SORT. Due to this extension we are able to track objects through longer periods of occlusions, effectively reducing the number of identity switches. In spirit of the original framework we place much of the computational complexity into an offline pre-training stage where we learn a deep association metric on a large-scale person re-identification dataset. During online application, we establish measurement-to-track associations using nearest neighbor queries in visual appearance space. Experimental evaluation shows that our extensions reduce the number of identity switches by 45\%, achieving overall competitive performance at high frame rates.},
-  pubstate = {prepublished},
   keywords = {/unread,Computer Science - Computer Vision and Pattern Recognition},
   file = {H:\Literature\Official\storage\UBJR5LEP\Wojke 等 - 2017 - Simple Online and Realtime Tracking with a Deep Association Metric.pdf}
 }
@@ -689,16 +753,14 @@ AIF: 1.411},
   file = {H:\Literature\Official\storage\HBKGZ2UQ\伍瀚 等 - 2023 - 基于深度学习的视觉多目标跟踪研究综述.pdf}
 }
 
-@article{XuDaXingXuJiaShuJuZhuRuGongJiXiaRongHeGaoJieRongJiQiaErManLuBoYuChangDuanJiYiWangLuoDePeiDianWangDongTaiZhuangTaiGuJi2025,
+@online{XuDaXingXuJiaShuJuZhuRuGongJiXiaRongHeGaoJieRongJiQiaErManLuBoYuChangDuanJiYiWangLuoDePeiDianWangDongTaiZhuangTaiGuJi2025,
   title = {虚假数据注入攻击下融合高阶容积卡尔曼滤波与长短记忆网络的配电网动态状态估计},
   author = {{许大星} and {苏磊} and {韩鹤乔} and {王海伦} and {张恒} and {陈博}},
-  date = {2025-12-17},
-  journaltitle = {电子与信息学报},
+  date = {2025},
   url = {https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CAPJ&dbname=CAPJLAST&filename=DZYX20251216001},
   urldate = {2026-05-03},
   abstract = {配电网动态状态估计是保障电力物理信息系统安全稳定运行的关键技术，但系统的强非线性、高维特性及虚假数据注入攻击(FDIA)严重制约了其精度与安全。针对上述问题，该文提出一种融合高阶容积卡尔曼滤波(HCKF)与长短期记忆网络(LSTM)的动态状态估计方法。首先，建立基于混合量测的配电系统状态估计模型，并利用HCKF通过高阶容积点生成策略提升对强非线性高维配电网的状态估计精度；其次，结合加权最小二乘法(WLS)与HCKF的状态估计值，基于残差分析实现FDIA的快速检测；最后，当检测到FDIA时，利用LSTM模型对受攻击节点的量测数据进行时序预测与重构，修正状态估计结果。在IEEE33节点配电系统上的实验表明，在无FDIA时基于HCKF的动态状态估计算法对电压幅值和相角的估计精度高于现有方法。在FDIA场景下，验证了基于残差分析的攻击检测方法、基于LSTM的量测数据预测，以及所提动态状态估计算法的有效性。},
   langid = {chinese},
-  pubstate = {advance online publication},
   keywords = {/unread,动态状态估计,高阶容积卡尔曼滤波,配电网,虚假数据注入攻击},
   annotation = {Fund: 国家自然科学基金(62441311)； 衢州市科技计划项目(2025K206)；},
   file = {H:\Literature\Official\storage\YK87AWZ3\许大星 等 - 2025 - 虚假数据注入攻击下融合高阶容积卡尔曼滤波与长短记忆网络的配电网动态状态估计.pdf}
@@ -738,10 +800,42 @@ AIF: 1.411},
   file = {H:\Literature\Official\storage\DPMYDI5S\杨遵立 等 - 2024 - 改进的自适应扩展卡尔曼滤波雷达目标跟踪算法.pdf}
 }
 
+@online{YOLO9000BetterFaster,
+  title = {{{YOLO9000}}: {{Better}}, {{Faster}}, {{Stronger}} | {{IEEE Conference Publication}} | {{IEEE Xplore}}},
+  url = {https://ieeexplore.ieee.org/document/8100173},
+  urldate = {2026-05-05},
+  keywords = {/unread}
+}
+
 @online{YOLOv1YOLOv8Rise,
   title = {{{YOLO-v1}} to {{YOLO-v8}}, the {{Rise}} of {{YOLO}} and {{Its Complementary Nature}} toward {{Digital Manufacturing}} and {{Industrial Defect Detection}}},
   url = {https://www.mdpi.com/2075-1702/11/7/677},
   urldate = {2026-05-02},
+  keywords = {/unread}
+}
+
+@online{YOLOv3IncrementalImprovement,
+  title = {{{YOLOv3}}: {{An Incremental Improvement}}},
+  author = {Redmon, Joseph and Farhadi, Ali},
+  date = {2018-04-08},
+  eprint = {1804.02767},
+  eprinttype = {arXiv},
+  eprintclass = {cs},
+  doi = {10.48550/arXiv.1804.02767},
+  url = {https://arxiv.org/abs/1804.02767},
+  urldate = {2026-05-05},
+  keywords = {/unread}
+}
+
+@inproceedings{YouOnlyLook,
+  title = {You {{Only Look Once}}: {{Unified}}, {{Real-Time Object Detection}}},
+  booktitle = {2016 {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}} ({{CVPR}})},
+  author = {Redmon, Joseph and Divvala, Santosh and Girshick, Ross and Farhadi, Ali},
+  date = {2016-06},
+  pages = {779--788},
+  doi = {10.1109/CVPR.2016.91},
+  url = {https://arxiv.org/abs/1506.02640},
+  urldate = {2026-05-05},
   keywords = {/unread}
 }
 
@@ -771,7 +865,6 @@ AIF: 1.411},
   urldate = {2025-11-24},
   abstract = {Multi-object tracking (MOT) aims at estimating bounding boxes and identities of objects in videos. Most methods obtain identities by associating detection boxes whose scores are higher than a threshold. The objects with low detection scores, e.g. occluded objects, are simply thrown away, which brings non-negligible true object missing and fragmented trajectories. To solve this problem, we present a simple, effective and generic association method, tracking by associating almost every detection box instead of only the high score ones. For the low score detection boxes, we utilize their similarities with tracklets to recover true objects and filter out the background detections. When applied to 9 different state-of-the-art trackers, our method achieves consistent improvement on IDF1 score ranging from 1 to 10 points. To put forwards the state-of-the-art performance of MOT, we design a simple and strong tracker, named ByteTrack. For the first time, we achieve 80.3 MOTA, 77.3 IDF1 and 63.1 HOTA on the test set of MOT17 with 30 FPS running speed on a single V100 GPU. ByteTrack also achieves state-of-the-art performance on MOT20, HiEve and BDD100K tracking benchmarks. The source code, pre-trained models with deploy versions and tutorials of applying to other trackers are released at https://github.com/ifzhang/ByteTrack.},
   langid = {american},
-  pubstate = {prepublished},
   keywords = {Computer Science - Computer Vision and Pattern Recognition},
   file = {H:\Literature\Official\storage\QW6USQE6\Zhang 等 - 2022 - ByteTrack Multi-Object Tracking by Associating Every Detection Box.pdf}
 }

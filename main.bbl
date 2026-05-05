@@ -106,14 +106,39 @@
       \endverb
       \keyw{/unread,复合控制,高动态目标,轨迹预测,末制导,中末制导交接班,中制导}
     \endentry
-    \entry{liResearchCooperativeDetectionInterception2025}{article}{}{}
+    \entry{liResearchCooperativeDetectionInterception2025}{online}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=cb4f288a3d46dd83a6a8ec0d961e665c}{%
+           family={{李昊}},
+           familyi={李\bibinitperiod}}}%
+      }
+      \true{morenamea}
+      \name{namea}{1}{}{%
+        {{hash=cb4f288a3d46dd83a6a8ec0d961e665c}{%
+           family={{李昊}},
+           familyi={李\bibinitperiod}}}%
+      }
       \list{language}{1}{%
         {chinese}%
       }
+      \strng{namehash}{e3011c08b9103194d254b26c759da4f6}
+      \strng{fullhash}{e3011c08b9103194d254b26c759da4f6}
+      \strng{fullhashraw}{e3011c08b9103194d254b26c759da4f6}
+      \strng{bibnamehash}{e3011c08b9103194d254b26c759da4f6}
+      \strng{authorbibnamehash}{e3011c08b9103194d254b26c759da4f6}
+      \strng{authornamehash}{e3011c08b9103194d254b26c759da4f6}
+      \strng{authorfullhash}{e3011c08b9103194d254b26c759da4f6}
+      \strng{authorfullhashraw}{e3011c08b9103194d254b26c759da4f6}
+      \strng{nameabibnamehash}{e3011c08b9103194d254b26c759da4f6}
+      \strng{nameanamehash}{e3011c08b9103194d254b26c759da4f6}
+      \strng{nameafullhash}{e3011c08b9103194d254b26c759da4f6}
+      \strng{nameafullhashraw}{e3011c08b9103194d254b26c759da4f6}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{现代防御技术}
       \field{langid}{chinese}
       \field{languageid}{chinese}
       \field{lansortorder}{1}
@@ -121,8 +146,9 @@
       \field{urlday}{3}
       \field{urlmonth}{5}
       \field{urlyear}{2026}
-      \field{usera}{J}
+      \field{usera}{EB}
       \field{userd}{chinese}
+      \field{userf}{chinese}
       \field{year}{2025}
       \field{dateera}{ce}
       \field{urldateera}{ce}
@@ -271,6 +297,9 @@
       \list{language}{1}{%
         {english}%
       }
+      \list{location}{1}{%
+        {Karlsruhe}%
+      }
       \list{publisher}{1}{%
         {KIT Scientific Publishing}%
       }
@@ -290,12 +319,11 @@
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{13}
+      \field{abstract}{Multi-person tracking has many applications such as surveillance or automated driving. Existing approaches exploit available motion and appearance cues insufficiently. In contrast, this work introduces several methods to improve the usage of detections and target information, including novel association strategies, distance measures, and an occlusion-aware initialization. The proposed framework achieves state-of-the-art results on multiple benchmarks and tracks hundreds of persons in real time. Umfang: IX, 265 S. Preis: 44.00 €}
       \field{isbn}{978-3-7315-1467-1}
       \field{langid}{english}
       \field{languageid}{english}
       \field{lansortorder}{4}
-      \field{month}{3}
       \field{title}{Utilization of {{Occluded Detections}} and {{Target Information}} in {{Multi-Person Tracking}}}
       \field{urlday}{3}
       \field{urlmonth}{5}
@@ -308,6 +336,9 @@
       \field{urldateera}{ce}
       \verb{doi}
       \verb 10.5445/KSP/1000189811
+      \endverb
+      \verb{file}
+      \verb H:\Literature\Official\storage\QWSZ3XQU\Stadler - 2026 - Utilization of Occluded Detections and Target Information in Multi-Person Tracking.pdf
       \endverb
       \verb{urlraw}
       \verb https://www.ksp.kit.edu/books/m/10.5445/KSP/1000189811
@@ -369,7 +400,6 @@
       \field{languageid}{english}
       \field{lansortorder}{4}
       \field{month}{11}
-      \field{pubstate}{prepublished}
       \field{title}{Eliminating {{Exposure Bias}} and {{Loss-Evaluation Mismatch}} in {{Multiple Object Tracking}}}
       \field{urlday}{3}
       \field{urlmonth}{5}
@@ -852,7 +882,6 @@
       \field{languageid}{english}
       \field{lansortorder}{4}
       \field{month}{4}
-      \field{pubstate}{prepublished}
       \field{shorttitle}{{{ByteTrack}}}
       \field{title}{{{ByteTrack}}: {{Multi-Object Tracking}} by {{Associating Every Detection Box}}}
       \field{urlday}{24}
@@ -983,7 +1012,6 @@
       \field{languageid}{english}
       \field{lansortorder}{4}
       \field{month}{9}
-      \field{pubstate}{prepublished}
       \field{title}{Motion {{Estimation}} for {{Multi-Object Tracking}} Using {{KalmanNet}} with {{Semantic-Independent Encoding}}}
       \field{urlday}{29}
       \field{urlmonth}{4}
@@ -1001,7 +1029,7 @@
       \verb 2509.11323
       \endverb
       \verb{file}
-      \verb H:\Literature\Official\storage\7QMRWIMR\Song 等 - 2025 - Motion Estimation for Multi-Object Tracking using KalmanNet with Semantic-Independent Encoding.pdf
+      \verb H:\Literature\Official\storage\PSDZYFNY\Song 等 - 2025 - Motion Estimation for Multi-Object Tracking using KalmanNet with Semantic-Independent Encoding.pdf
       \endverb
       \verb{urlraw}
       \verb http://arxiv.org/abs/2509.11323
@@ -1012,22 +1040,73 @@
       \keyw{/unread,Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition}
     \endentry
     \entry{wang3DMultiObjectTracking2024}{online}{}{}
-      \list{language}{1}{%
-        {chinese}%
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=bbe869383a7d3458b82c516a21e4482c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=7bb074c37d04e2fb30a473aa12102ae1}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c35d588fbc6ba93cfc35a19bfe7c1a57}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
       }
+      \true{morenamea}
+      \name{namea}{3}{}{%
+        {{hash=bbe869383a7d3458b82c516a21e4482c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=7bb074c37d04e2fb30a473aa12102ae1}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c35d588fbc6ba93cfc35a19bfe7c1a57}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{7580cb171a3f04d2937cf8ba9cb5b75d}
+      \strng{fullhash}{7580cb171a3f04d2937cf8ba9cb5b75d}
+      \strng{fullhashraw}{7580cb171a3f04d2937cf8ba9cb5b75d}
+      \strng{bibnamehash}{7580cb171a3f04d2937cf8ba9cb5b75d}
+      \strng{authorbibnamehash}{7580cb171a3f04d2937cf8ba9cb5b75d}
+      \strng{authornamehash}{7580cb171a3f04d2937cf8ba9cb5b75d}
+      \strng{authorfullhash}{7580cb171a3f04d2937cf8ba9cb5b75d}
+      \strng{authorfullhashraw}{7580cb171a3f04d2937cf8ba9cb5b75d}
+      \strng{nameabibnamehash}{7580cb171a3f04d2937cf8ba9cb5b75d}
+      \strng{nameanamehash}{7580cb171a3f04d2937cf8ba9cb5b75d}
+      \strng{nameafullhash}{7580cb171a3f04d2937cf8ba9cb5b75d}
+      \strng{nameafullhashraw}{7580cb171a3f04d2937cf8ba9cb5b75d}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
-      \field{langid}{chinese}
-      \field{languageid}{chinese}
-      \field{lansortorder}{1}
-      \field{title}{基于半监督 {{GRU-Kalman}} 滤波器的 {{3D}} 多目标跟踪}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{title}{3D {{Multi-Object Tracking}} with {{Semi-Supervised GRU-Kalman Filter}}}
       \field{urlday}{3}
       \field{urlmonth}{5}
       \field{urlyear}{2026}
       \field{usera}{EB}
-      \field{userd}{chinese}
+      \field{userd}{english}
+      \field{userf}{english}
       \field{year}{2024}
       \field{dateera}{ce}
       \field{urldateera}{ce}
@@ -1142,6 +1221,499 @@
       \endverb
       \keyw{/unread,class imbalance,Deep learning,Feature extraction,imbalance,Neural networks,Object detection,objective imbalance,Pattern analysis,Pipelines,scale imbalance,spatial imbalance,Taxonomy}
     \endentry
+    \entry{girshickRichFeatureHierarchies2014}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=bd5dadbe57bedc5957c19a3154c4d424}{%
+           family={Girshick},
+           familyi={G\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=913090a0d65c7a300c602f5a5a5a61e3}{%
+           family={Donahue},
+           familyi={D\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+        {{hash=90180e1a30742e0d15328bfe637c2ef4}{%
+           family={Darrell},
+           familyi={D\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c75a5377b6dc5213831576e88ffe553c}{%
+           family={Malik},
+           familyi={M\bibinitperiod},
+           given={Jitendra},
+           giveni={J\bibinitperiod}}}%
+      }
+      \name{namea}{4}{}{%
+        {{hash=bd5dadbe57bedc5957c19a3154c4d424}{%
+           family={Girshick},
+           familyi={G\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=913090a0d65c7a300c602f5a5a5a61e3}{%
+           family={Donahue},
+           familyi={D\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+        {{hash=90180e1a30742e0d15328bfe637c2ef4}{%
+           family={Darrell},
+           familyi={D\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c75a5377b6dc5213831576e88ffe553c}{%
+           family={Malik},
+           familyi={M\bibinitperiod},
+           given={Jitendra},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{4c9093705c2d81c64ebf3509f96715c5}
+      \strng{fullhash}{9147daa2f6a058d5b8880ff5cf38abd6}
+      \strng{fullhashraw}{9147daa2f6a058d5b8880ff5cf38abd6}
+      \strng{bibnamehash}{4c9093705c2d81c64ebf3509f96715c5}
+      \strng{authorbibnamehash}{4c9093705c2d81c64ebf3509f96715c5}
+      \strng{authornamehash}{4c9093705c2d81c64ebf3509f96715c5}
+      \strng{authorfullhash}{9147daa2f6a058d5b8880ff5cf38abd6}
+      \strng{authorfullhashraw}{9147daa2f6a058d5b8880ff5cf38abd6}
+      \strng{nameabibnamehash}{4c9093705c2d81c64ebf3509f96715c5}
+      \strng{nameanamehash}{4c9093705c2d81c64ebf3509f96715c5}
+      \strng{nameafullhash}{9147daa2f6a058d5b8880ff5cf38abd6}
+      \strng{nameafullhashraw}{9147daa2f6a058d5b8880ff5cf38abd6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Object detection performance, as measured on the canonical PASCAL VOC dataset, has plateaued in the last few years. The best-performing methods are complex ensemble systems that typically combine multiple low-level image features with high-level context. In this paper, we propose a simple and scalable detection algorithm that improves mean average precision (mAP) by more than 30\% relative to the previous best result on VOC 2012 – achieving a mAP of 53.3\%. Our approach combines two key insights: (1) one can apply high-capacity convolutional neural networks (CNNs) to bottom-up region proposals in order to localize and segment objects and (2) when labeled training data is scarce, supervised pre-training for an auxiliary task, followed by domain-specific fine-tuning, yields a significant performance boost. Since we combine region proposals with CNNs, we call our method R-CNN: Regions with CNN features. We also present experiments that provide insight into what the network learns, revealing a rich hierarchy of image features. Source code for the complete system is available at http://www.cs.berkeley.edu/ rbg/rcnn.}
+      \field{booktitle}{2014 {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}}}
+      \field{eventtitle}{2014 {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}}}
+      \field{issn}{1063-6919}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{month}{6}
+      \field{title}{Rich {{Feature Hierarchies}} for {{Accurate Object Detection}} and {{Semantic Segmentation}}}
+      \field{urlday}{5}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{usera}{C}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{580\bibrangedash 587}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/CVPR.2014.81
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/6909475
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/6909475
+      \endverb
+      \keyw{/unread,Feature extraction,Object detection,Proposals,Support vector machines,Training,Vectors,Visualization}
+    \endentry
+    \entry{girshickFastRCNN2015}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=bd5dadbe57bedc5957c19a3154c4d424}{%
+           family={Girshick},
+           familyi={G\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+      }
+      \name{namea}{1}{}{%
+        {{hash=bd5dadbe57bedc5957c19a3154c4d424}{%
+           family={Girshick},
+           familyi={G\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{bd5dadbe57bedc5957c19a3154c4d424}
+      \strng{fullhash}{bd5dadbe57bedc5957c19a3154c4d424}
+      \strng{fullhashraw}{bd5dadbe57bedc5957c19a3154c4d424}
+      \strng{bibnamehash}{bd5dadbe57bedc5957c19a3154c4d424}
+      \strng{authorbibnamehash}{bd5dadbe57bedc5957c19a3154c4d424}
+      \strng{authornamehash}{bd5dadbe57bedc5957c19a3154c4d424}
+      \strng{authorfullhash}{bd5dadbe57bedc5957c19a3154c4d424}
+      \strng{authorfullhashraw}{bd5dadbe57bedc5957c19a3154c4d424}
+      \strng{nameabibnamehash}{bd5dadbe57bedc5957c19a3154c4d424}
+      \strng{nameanamehash}{bd5dadbe57bedc5957c19a3154c4d424}
+      \strng{nameafullhash}{bd5dadbe57bedc5957c19a3154c4d424}
+      \strng{nameafullhashraw}{bd5dadbe57bedc5957c19a3154c4d424}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2015 {{IEEE International Conference}} on {{Computer Vision}} ({{ICCV}})}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{month}{12}
+      \field{title}{Fast {{R-CNN}}}
+      \field{urlday}{5}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{usera}{C}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1440\bibrangedash 1448}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/ICCV.2015.169
+      \endverb
+      \verb{file}
+      \verb H:\Literature\Official\storage\Q9YSSJZ5\Girshick - 2015 - Fast R-CNN.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1504.08083
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1504.08083
+      \endverb
+      \keyw{/unread,Computer Science - Computer Vision and Pattern Recognition}
+    \endentry
+    \entry{FasterRCNNRealTime}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=bb295293acacd54387339079ebbe4ead}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Shaoqing},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6b4b60e909e78633945f3f9c9dc83e01}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Kaiming},
+           giveni={K\bibinitperiod}}}%
+        {{hash=bd5dadbe57bedc5957c19a3154c4d424}{%
+           family={Girshick},
+           familyi={G\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f85751488058842b5777c7b4074077b5}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+      }
+      \name{namea}{4}{}{%
+        {{hash=bb295293acacd54387339079ebbe4ead}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Shaoqing},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6b4b60e909e78633945f3f9c9dc83e01}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Kaiming},
+           giveni={K\bibinitperiod}}}%
+        {{hash=bd5dadbe57bedc5957c19a3154c4d424}{%
+           family={Girshick},
+           familyi={G\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f85751488058842b5777c7b4074077b5}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{4bf4b5f7210e9b6395f54bde43f47ca5}
+      \strng{fullhash}{008a132af3e2d4ff15eb01a8fb4b005c}
+      \strng{fullhashraw}{008a132af3e2d4ff15eb01a8fb4b005c}
+      \strng{bibnamehash}{4bf4b5f7210e9b6395f54bde43f47ca5}
+      \strng{authorbibnamehash}{4bf4b5f7210e9b6395f54bde43f47ca5}
+      \strng{authornamehash}{4bf4b5f7210e9b6395f54bde43f47ca5}
+      \strng{authorfullhash}{008a132af3e2d4ff15eb01a8fb4b005c}
+      \strng{authorfullhashraw}{008a132af3e2d4ff15eb01a8fb4b005c}
+      \strng{nameabibnamehash}{4bf4b5f7210e9b6395f54bde43f47ca5}
+      \strng{nameanamehash}{4bf4b5f7210e9b6395f54bde43f47ca5}
+      \strng{nameafullhash}{008a132af3e2d4ff15eb01a8fb4b005c}
+      \strng{nameafullhashraw}{008a132af3e2d4ff15eb01a8fb4b005c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems 28 ({{NIPS}} 2015)}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{title}{Faster {{R-CNN}}: {{Towards Real-Time Object Detection}} with {{Region Proposal Networks}}}
+      \field{urlday}{5}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{usera}{C}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{91\bibrangedash 99}
+      \range{pages}{9}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1506.01497
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1506.01497
+      \endverb
+      \keyw{/unread}
+    \endentry
+    \entry{YouOnlyLook}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=99bced2e56a5253f3fe98a5f04e6d9b2}{%
+           family={Redmon},
+           familyi={R\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=05ca9f19da9ecbd2def4e5514f8043c8}{%
+           family={Divvala},
+           familyi={D\bibinitperiod},
+           given={Santosh},
+           giveni={S\bibinitperiod}}}%
+        {{hash=bd5dadbe57bedc5957c19a3154c4d424}{%
+           family={Girshick},
+           familyi={G\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=396c6ddedb6f986906fc3e4994d19974}{%
+           family={Farhadi},
+           familyi={F\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{namea}{4}{}{%
+        {{hash=99bced2e56a5253f3fe98a5f04e6d9b2}{%
+           family={Redmon},
+           familyi={R\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=05ca9f19da9ecbd2def4e5514f8043c8}{%
+           family={Divvala},
+           familyi={D\bibinitperiod},
+           given={Santosh},
+           giveni={S\bibinitperiod}}}%
+        {{hash=bd5dadbe57bedc5957c19a3154c4d424}{%
+           family={Girshick},
+           familyi={G\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=396c6ddedb6f986906fc3e4994d19974}{%
+           family={Farhadi},
+           familyi={F\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{fceadd5e0c88bc623c502d7999f124d7}
+      \strng{fullhash}{b5530443e433a4da53dbe3cf155225b4}
+      \strng{fullhashraw}{b5530443e433a4da53dbe3cf155225b4}
+      \strng{bibnamehash}{fceadd5e0c88bc623c502d7999f124d7}
+      \strng{authorbibnamehash}{fceadd5e0c88bc623c502d7999f124d7}
+      \strng{authornamehash}{fceadd5e0c88bc623c502d7999f124d7}
+      \strng{authorfullhash}{b5530443e433a4da53dbe3cf155225b4}
+      \strng{authorfullhashraw}{b5530443e433a4da53dbe3cf155225b4}
+      \strng{nameabibnamehash}{fceadd5e0c88bc623c502d7999f124d7}
+      \strng{nameanamehash}{fceadd5e0c88bc623c502d7999f124d7}
+      \strng{nameafullhash}{b5530443e433a4da53dbe3cf155225b4}
+      \strng{nameafullhashraw}{b5530443e433a4da53dbe3cf155225b4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}} ({{CVPR}})}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{month}{6}
+      \field{title}{You {{Only Look Once}}: {{Unified}}, {{Real-Time Object Detection}}}
+      \field{urlday}{5}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{usera}{C}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{779\bibrangedash 788}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/CVPR.2016.91
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1506.02640
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1506.02640
+      \endverb
+      \keyw{/unread}
+    \endentry
+    \entry{redmonYOLO9000BetterFaster2017}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=99bced2e56a5253f3fe98a5f04e6d9b2}{%
+           family={Redmon},
+           familyi={R\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=396c6ddedb6f986906fc3e4994d19974}{%
+           family={Farhadi},
+           familyi={F\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{namea}{2}{}{%
+        {{hash=99bced2e56a5253f3fe98a5f04e6d9b2}{%
+           family={Redmon},
+           familyi={R\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=396c6ddedb6f986906fc3e4994d19974}{%
+           family={Farhadi},
+           familyi={F\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{fullhash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{fullhashraw}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{bibnamehash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{authorbibnamehash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{authornamehash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{authorfullhash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{authorfullhashraw}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{nameabibnamehash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{nameanamehash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{nameafullhash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{nameafullhashraw}{e3b480c56f52be95ad68ce67e9708174}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We introduce YOLO9000, a state-of-the-art, real-time object detection system that can detect over 9000 object categories. First we propose various improvements to the YOLO detection method, both novel and drawn from prior work. The improved model, YOLOv2, is state-of-the-art on standard detection tasks like PASCAL VOC and COCO. Using a novel, multi-scale training method the same YOLOv2 model can run at varying sizes, offering an easy tradeoff between speed and accuracy. At 67 FPS, YOLOv2 gets 76.8 mAP on VOC 2007. At 40 FPS, YOLOv2 gets 78.6 mAP, outperforming state-of-the-art methods like Faster RCNN with ResNet and SSD while still running significantly faster. Finally we propose a method to jointly train on object detection and classification. Using this method we train YOLO9000 simultaneously on the COCO detection dataset and the ImageNet classification dataset. Our joint training allows YOLO9000 to predict detections for object classes that dont have labelled detection data. We validate our approach on the ImageNet detection task. YOLO9000 gets 19.7 mAP on the ImageNet detection validation set despite only having detection data for 44 of the 200 classes. On the 156 classes not in COCO, YOLO9000 gets 16.0 mAP. YOLO9000 predicts detections for more than 9000 different object categories, all in real-time.}
+      \field{booktitle}{2017 {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}} ({{CVPR}})}
+      \field{eventtitle}{2017 {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}} ({{CVPR}})}
+      \field{issn}{1063-6919}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{month}{7}
+      \field{shorttitle}{{{YOLO9000}}}
+      \field{title}{{{YOLO9000}}: {{Better}}, {{Faster}}, {{Stronger}}}
+      \field{urlday}{5}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{usera}{C}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{6517\bibrangedash 6525}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/CVPR.2017.690
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/8100173
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/8100173
+      \endverb
+      \keyw{/unread,Detectors,Feature extraction,Image resolution,Object detection,Real-time systems,Training}
+    \endentry
+    \entry{YOLOv3IncrementalImprovement}{online}{}{}
+      \name{author}{2}{}{%
+        {{hash=99bced2e56a5253f3fe98a5f04e6d9b2}{%
+           family={Redmon},
+           familyi={R\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=396c6ddedb6f986906fc3e4994d19974}{%
+           family={Farhadi},
+           familyi={F\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{namea}{2}{}{%
+        {{hash=99bced2e56a5253f3fe98a5f04e6d9b2}{%
+           family={Redmon},
+           familyi={R\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=396c6ddedb6f986906fc3e4994d19974}{%
+           family={Farhadi},
+           familyi={F\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{fullhash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{fullhashraw}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{bibnamehash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{authorbibnamehash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{authornamehash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{authorfullhash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{authorfullhashraw}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{nameabibnamehash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{nameanamehash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{nameafullhash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{nameafullhashraw}{e3b480c56f52be95ad68ce67e9708174}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{8}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arXiv}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{month}{4}
+      \field{title}{{{YOLOv3}}: {{An Incremental Improvement}}}
+      \field{urlday}{5}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{usera}{EB}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1804.02767
+      \endverb
+      \verb{eprint}
+      \verb 1804.02767
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1804.02767
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1804.02767
+      \endverb
+      \keyw{/unread}
+    \endentry
     \entry{geYOLOXExceedingYOLO2021}{online}{}{}
       \name{author}{5}{}{%
         {{hash=bfbcceb1c89856aa979311c5826ee1e8}{%
@@ -1212,8 +1784,8 @@
       \strng{nameanamehash}{b02d4ce418224fd58c5fdf1242139da5}
       \strng{nameafullhash}{6f5b463deab540da2fc24a0b9a0f671f}
       \strng{nameafullhashraw}{6f5b463deab540da2fc24a0b9a0f671f}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{In this report, we present some experienced improvements to YOLO series, forming a new high-performance detector -- YOLOX. We switch the YOLO detector to an anchor-free manner and conduct other advanced detection techniques, i.e., a decoupled head and the leading label assignment strategy SimOTA to achieve state-of-the-art results across a large scale range of models: For YOLO-Nano with only 0.91M parameters and 1.08G FLOPs, we get 25.3\% AP on COCO, surpassing NanoDet by 1.8\% AP; for YOLOv3, one of the most widely used detectors in industry, we boost it to 47.3\% AP on COCO, outperforming the current best practice by 3.0\% AP; for YOLOX-L with roughly the same amount of parameters as YOLOv4-CSP, YOLOv5-L, we achieve 50.0\% AP on COCO at a speed of 68.9 FPS on Tesla V100, exceeding YOLOv5-L by 1.8\% AP. Further, we won the 1st Place on Streaming Perception Challenge (Workshop on Autonomous Driving at CVPR 2021) using a single YOLOX-L model. We hope this report can provide useful experience for developers and researchers in practical scenes, and we also provide deploy versions with ONNX, TensorRT, NCNN, and Openvino supported. Source code is at https://github.com/Megvii-BaseDetection/YOLOX.}
@@ -1224,7 +1796,6 @@
       \field{languageid}{english}
       \field{lansortorder}{4}
       \field{month}{8}
-      \field{pubstate}{prepublished}
       \field{shorttitle}{{{YOLOX}}}
       \field{title}{{{YOLOX}}: {{Exceeding YOLO Series}} in 2021}
       \field{urlday}{2}
@@ -1303,8 +1874,8 @@
       \strng{nameanamehash}{ca28b17c50be75db2e9c8ec5d10fd1b1}
       \strng{nameafullhash}{d56bb813aa0fa707fdaf2af5b190d4da}
       \strng{nameafullhashraw}{d56bb813aa0fa707fdaf2af5b190d4da}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{多目标跟踪(MOT)旨在从给定视频序列中输出所有目标的运动轨迹并维持各目标的身份。近年来，由于其在学术研究和实际应用中具有巨大潜力，因此受到越来越多的关注并成为计算机视觉的热点研究方向。当前主流的跟踪方法将MOT任务拆分为目标检测、特征提取以及数据关联3个子任务，这种思路已经得到了良好的发展。然而，由于实际跟踪过程中存在遮挡和相似物体干扰等挑战，保持鲁棒跟踪仍是当前的研究难点。为了满足在复杂场景下对多个目标准确、鲁棒、实时跟踪的要求，需要对MOT算法作进一步研究与改进。目前已有关于MOT算法的综述，但仍存在总结不够全面及缺少最新研究成果等问题。因此，首先介绍了MOT的原理及挑战；其次，通过总结最新的研究成果对MOT算法进行了归纳和分析，根据各类算法为完成3个子任务所采用的跟踪范式将其分为三大类，即分离检测与特征提取、联合检测与特征提取及联合检测和跟踪，并且详细说明了各类跟踪算法的主要特征；然后，将所提算法与当前主流算法在常用数据集上进行了对比分析，讨论了当前算法的优缺点及发展趋势，展望了未来的研究方向。}
@@ -1409,8 +1980,8 @@
       \strng{nameanamehash}{46b9641d6ac5c17e654800471830a552}
       \strng{nameafullhash}{2a677301068897509d01d3287d9a96f2}
       \strng{nameafullhashraw}{2a677301068897509d01d3287d9a96f2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper explores a pragmatic approach to multiple object tracking where the main focus is to associate objects efficiently for online and realtime applications. To this end, detection quality is identified as a key factor influencing tracking performance, where changing the detector can improve tracking by up to 18.9\%. Despite only using a rudimentary combination of familiar techniques such as the Kalman Filter and Hungarian algorithm for the tracking components, this approach achieves an accuracy comparable to state-of-the-art online trackers. Furthermore, due to the simplicity of our tracking method, the tracker updates at a rate of 260 Hz which is over 20x faster than other state-of-the-art trackers.}
@@ -1532,22 +2103,83 @@
       \endverb
       \keyw{/unread,Cameras,Computer Vision,Data Association,Extraterrestrial measurements,Kalman filters,Multiple Object Tracking,Standards,Tracking,Uncertainty}
     \endentry
-    \entry{RealTimeMultiObjectTracking}{online}{}{}
+    \entry{RealTimeMultiObjectTracking}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=ca0724a3010f0a8c774baf95fdd595df}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhongdao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=7f1ed47c0c1b22e46324b0745b5b65eb}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Liang},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e0c544f9d75927521d513d97d25970ad}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yixuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e7ca9a433a92fb4d6b1a6a03dd0457c8}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Shengjin},
+           giveni={S\bibinitperiod}}}%
+      }
+      \name{namea}{4}{}{%
+        {{hash=ca0724a3010f0a8c774baf95fdd595df}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhongdao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=7f1ed47c0c1b22e46324b0745b5b65eb}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Liang},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e0c544f9d75927521d513d97d25970ad}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yixuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e7ca9a433a92fb4d6b1a6a03dd0457c8}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Shengjin},
+           giveni={S\bibinitperiod}}}%
+      }
       \list{language}{1}{%
         {english}%
       }
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \strng{namehash}{2d651f26dee4b7bbf39511ea20cd9bef}
+      \strng{fullhash}{5b1d9f735c52ac41e1cfbecaa8d4b5e1}
+      \strng{fullhashraw}{5b1d9f735c52ac41e1cfbecaa8d4b5e1}
+      \strng{bibnamehash}{2d651f26dee4b7bbf39511ea20cd9bef}
+      \strng{authorbibnamehash}{2d651f26dee4b7bbf39511ea20cd9bef}
+      \strng{authornamehash}{2d651f26dee4b7bbf39511ea20cd9bef}
+      \strng{authorfullhash}{5b1d9f735c52ac41e1cfbecaa8d4b5e1}
+      \strng{authorfullhashraw}{5b1d9f735c52ac41e1cfbecaa8d4b5e1}
+      \strng{nameabibnamehash}{2d651f26dee4b7bbf39511ea20cd9bef}
+      \strng{nameanamehash}{2d651f26dee4b7bbf39511ea20cd9bef}
+      \strng{nameafullhash}{5b1d9f735c52ac41e1cfbecaa8d4b5e1}
+      \strng{nameafullhashraw}{5b1d9f735c52ac41e1cfbecaa8d4b5e1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{booktitle}{Computer Vision -- {{ECCV}} 2020 Workshops}
       \field{langid}{english}
       \field{languageid}{english}
       \field{lansortorder}{4}
-      \field{title}{Towards {{Real-Time Multi-Object Tracking}} | {{Springer Nature Link}}}
+      \field{title}{Towards {{Real-Time Multi-Object Tracking}}}
       \field{urlday}{2}
       \field{urlmonth}{5}
       \field{urlyear}{2026}
-      \field{usera}{EB}
+      \field{usera}{C}
       \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2020}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://link.springer.com/chapter/10.1007/978-3-030-58621-8_7
@@ -1561,8 +2193,8 @@
       \list{language}{1}{%
         {english}%
       }
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{langid}{english}
       \field{languageid}{english}
@@ -1668,8 +2300,8 @@
       \strng{nameanamehash}{8467c1f8667de20222e7f02b34d9741d}
       \strng{nameafullhash}{17ce128338fbf996699d7f06ce5540f7}
       \strng{nameafullhashraw}{17ce128338fbf996699d7f06ce5540f7}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Temporal modeling of objects is a key challenge in multiple object tracking (MOT). Existing methods track by associating detections through motion-based and appearance-based similarity heuristics. The post-processing nature of association prevents end-to-end exploitation of temporal variations in video sequence. In this paper, we propose MOTR, which extends DETR and introduces track query to model the tracked instances in the entire video. Track query is transferred and updated frame-by-frame to perform iterative prediction over time. We propose tracklet-aware label assignment to train track queries and newborn object queries. We further propose temporal aggregation network and collective average loss to enhance temporal relation modeling. Experimental results on DanceTrack show that MOTR significantly outperforms state-of-the-art method, ByteTrack by 6.5\% on HOTA metric. On MOT17, MOTR outperforms our concurrent works, TrackFormer and TransTrack, on association performance. MOTR can serve as a stronger baseline for future research on temporal modeling and Transformer-based trackers. Code is available at https://github.com/megvii-research/MOTR.}
@@ -1697,7 +2329,7 @@
       \keyw{/unread}
     \endentry
     \entry{shlezingerAIAidedKalmanFilters2025}{article}{}{}
-      \name{author}{10}{}{%
+      \name{author}{11}{}{%
         {{hash=072ab2fe82d486ad628191b0f6dff7da}{%
            family={Shlezinger},
            familyi={S\bibinitperiod},
@@ -1748,8 +2380,13 @@
            familyi={E\bibinitperiod},
            given={Yonina\bibnamedelima C.},
            giveni={Y\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=539afb97ee9b3f948afbd3d4839bedb5}{%
+           family={Candan},
+           familyi={C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
       }
-      \name{namea}{10}{}{%
+      \name{namea}{11}{}{%
         {{hash=072ab2fe82d486ad628191b0f6dff7da}{%
            family={Shlezinger},
            familyi={S\bibinitperiod},
@@ -1800,41 +2437,49 @@
            familyi={E\bibinitperiod},
            given={Yonina\bibnamedelima C.},
            giveni={Y\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=539afb97ee9b3f948afbd3d4839bedb5}{%
+           family={Candan},
+           familyi={C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {english}%
       }
       \strng{namehash}{0cb820ec65255f7457b05903424ed4f3}
-      \strng{fullhash}{2fb47e23257929f9cf6eaf0879b51fb2}
-      \strng{fullhashraw}{2fb47e23257929f9cf6eaf0879b51fb2}
+      \strng{fullhash}{bf5c9141eb425b36dab024f95ecaaece}
+      \strng{fullhashraw}{bf5c9141eb425b36dab024f95ecaaece}
       \strng{bibnamehash}{0cb820ec65255f7457b05903424ed4f3}
       \strng{authorbibnamehash}{0cb820ec65255f7457b05903424ed4f3}
       \strng{authornamehash}{0cb820ec65255f7457b05903424ed4f3}
-      \strng{authorfullhash}{2fb47e23257929f9cf6eaf0879b51fb2}
-      \strng{authorfullhashraw}{2fb47e23257929f9cf6eaf0879b51fb2}
+      \strng{authorfullhash}{bf5c9141eb425b36dab024f95ecaaece}
+      \strng{authorfullhashraw}{bf5c9141eb425b36dab024f95ecaaece}
       \strng{nameabibnamehash}{0cb820ec65255f7457b05903424ed4f3}
       \strng{nameanamehash}{0cb820ec65255f7457b05903424ed4f3}
-      \strng{nameafullhash}{2fb47e23257929f9cf6eaf0879b51fb2}
-      \strng{nameafullhashraw}{2fb47e23257929f9cf6eaf0879b51fb2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \strng{nameafullhash}{bf5c9141eb425b36dab024f95ecaaece}
+      \strng{nameafullhashraw}{bf5c9141eb425b36dab024f95ecaaece}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The Kalman filter (KF) and its variants are among the most celebrated algorithms in signal processing. These methods are used for state estimation of dynamic systems by relying on mathematical representations in the form of simple state-space (SS) models, which may be crude and inaccurate descriptions of the underlying dynamics. Emerging data-centric artificial intelligence (AI) techniques tackle these tasks using deep neural networks (DNNs), which are model-agnostic. Recent developments illustrate the possibility of fusing DNNs with classic Kalman-type filtering, obtaining systems that learn to track in partially known dynamics. This article provides a tutorial-style overview of design approaches for incorporating AI in aiding KF-type algorithms. We review both generic and dedicated DNN architectures suitable for state estimation, and provide a systematic presentation of techniques for fusing AI tools with KFs and for leveraging partial SS modeling and data, categorizing design approaches into task-oriented and SS model-oriented. The usefulness of each approach in preserving the individual strengths of model-based KFs and data-driven DNNs is investigated in a qualitative and quantitative study, whose code is publicly available, illustrating the gains of hybrid model-based/data-driven designs. We also discuss existing challenges and future research directions that arise from fusing AI and Kalman-type algorithms.}
       \field{journaltitle}{IEEE Signal Processing Magazine}
       \field{langid}{english}
       \field{languageid}{english}
       \field{lansortorder}{4}
+      \field{number}{3}
       \field{title}{Artificial {{Intelligence-Aided Kalman Filters}}: {{AI-Augmented Designs}} for {{Kalman-Type Algorithms}}}
-      \field{urlday}{3}
+      \field{urlday}{5}
       \field{urlmonth}{5}
       \field{urlyear}{2026}
       \field{usera}{J}
       \field{userd}{english}
       \field{userf}{english}
+      \field{volume}{42}
       \field{year}{2025}
       \field{dateera}{ce}
       \field{urldateera}{ce}
+      \field{pages}{52\bibrangedash 76}
+      \range{pages}{25}
       \verb{doi}
       \verb 10.1109/MSP.2025.3569395
       \endverb
@@ -1847,7 +2492,83 @@
       \verb{url}
       \verb https://doi.org/10.1109/MSP.2025.3569395
       \endverb
-      \keyw{/unread,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Signal Processing,Electrical Engineering and Systems Science - Systems and Control}
+      \keyw{/unread,Kalman filters,Machine learning,Signal processing,State estimation}
+    \endentry
+    \entry{julierUnscentedFilteringNonlinear2004}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=4d970a698b1a95a744e062b40d63acf3}{%
+           family={Julier},
+           familyi={J\bibinitperiod},
+           given={S.J.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9742c3d48a7a72fc4a306264f44ad3d9}{%
+           family={Uhlmann},
+           familyi={U\bibinitperiod},
+           given={J.K.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \name{namea}{2}{}{%
+        {{hash=4d970a698b1a95a744e062b40d63acf3}{%
+           family={Julier},
+           familyi={J\bibinitperiod},
+           given={S.J.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9742c3d48a7a72fc4a306264f44ad3d9}{%
+           family={Uhlmann},
+           familyi={U\bibinitperiod},
+           given={J.K.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{35de1a223c7aa5caeca1d7e14b633e66}
+      \strng{fullhash}{35de1a223c7aa5caeca1d7e14b633e66}
+      \strng{fullhashraw}{35de1a223c7aa5caeca1d7e14b633e66}
+      \strng{bibnamehash}{35de1a223c7aa5caeca1d7e14b633e66}
+      \strng{authorbibnamehash}{35de1a223c7aa5caeca1d7e14b633e66}
+      \strng{authornamehash}{35de1a223c7aa5caeca1d7e14b633e66}
+      \strng{authorfullhash}{35de1a223c7aa5caeca1d7e14b633e66}
+      \strng{authorfullhashraw}{35de1a223c7aa5caeca1d7e14b633e66}
+      \strng{nameabibnamehash}{35de1a223c7aa5caeca1d7e14b633e66}
+      \strng{nameanamehash}{35de1a223c7aa5caeca1d7e14b633e66}
+      \strng{nameafullhash}{35de1a223c7aa5caeca1d7e14b633e66}
+      \strng{nameafullhashraw}{35de1a223c7aa5caeca1d7e14b633e66}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The extended Kalman filter (EKF) is probably the most widely used estimation algorithm for nonlinear systems. However, more than 35 years of experience in the estimation community has shown that is difficult to implement, difficult to tune, and only reliable for systems that are almost linear on the time scale of the updates. Many of these difficulties arise from its use of linearization. To overcome this limitation, the unscented transformation (UT) was developed as a method to propagate mean and covariance information through nonlinear transformations. It is more accurate, easier to implement, and uses the same order of calculations as linearization. This paper reviews the motivation, development, use, and implications of the UT.}
+      \field{issn}{1558-2256}
+      \field{journaltitle}{Proceedings of the IEEE}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Unscented Filtering and Nonlinear Estimation}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{92}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{401\bibrangedash 422}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1109/JPROC.2003.823141
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/1271397
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/1271397
+      \endverb
+      \keyw{/unread,Chemical processes,Control systems,Filtering,Kalman filters,Navigation,Nonlinear control systems,Nonlinear systems,Particle tracking,Target tracking,Vehicles}
     \endentry
     \entry{dikerNeuralAidedAdaptive2026}{online}{}{}
       \name{author}{2}{}{%
@@ -1889,8 +2610,8 @@
       \strng{nameanamehash}{2a09aa09eddc3c7cb5b9ebebce2f451e}
       \strng{nameafullhash}{2a09aa09eddc3c7cb5b9ebebce2f451e}
       \strng{nameafullhashraw}{2a09aa09eddc3c7cb5b9ebebce2f451e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Autonomous platforms require accurate positioning to complete their tasks. To this end, a Kalman filter-based algorithms, such as the extended Kalman filter or invariant Kalman filter, utilizing inertial and external sensor fusion are applied. To cope with real-world scenarios, adaptive noise estimation methods have been developed primarily for classical Euclidean formulations. However, these methods remain largely unexplored in the tangent Lie space, despite it provides a principled geometric framework with favorable error dynamics on Lie groups. To fill this gap, we combine invariant filtering theory with neural-aided adaptive noise estimation in real-world settings. To this end, we derive a novel theoretical extension of classical innovation-based process noise adaptation formulated directly within the Lie-group framework. We further propose a lightweight neural network that estimates the process noise covariance parameters directly from raw inertial data. Trained entirely in a sim2real framework via domain adaptation, the network captures motion-dependent and sensor-dependent noise characteristics without requiring labeled real-world data. To examine our proposed neural-aided adaptive invariant Kalman filter, we focus on the challenging real-world scenario of autonomous underwater navigation. Experimental results demonstrate superior performance compared to existing methods in terms of position root mean square error. These results validate our sim2real pipeline and further confirm that geometric invariance significantly enhances learning-based adaptation and that adaptive noise estimation in the tangent Lie space offers a powerful mechanism for improving navigation accuracy in nonlinear autonomous platforms.}
@@ -1901,7 +2622,6 @@
       \field{languageid}{english}
       \field{lansortorder}{4}
       \field{month}{3}
-      \field{pubstate}{prepublished}
       \field{title}{Neural {{Aided Adaptive Innovation-Based Invariant Kalman Filter}}}
       \field{urlday}{3}
       \field{urlmonth}{5}
@@ -1972,8 +2692,8 @@
       \strng{nameanamehash}{8cc55fd4f2e8727431b2ab3fa785472b}
       \strng{nameafullhash}{8cc55fd4f2e8727431b2ab3fa785472b}
       \strng{nameafullhashraw}{8cc55fd4f2e8727431b2ab3fa785472b}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Accurate navigation state estimation is essential for control systems, where internal states must be inferred from noisy sensor inputs. Traditional Extended Kalman Filter (EKF) methods often face limitations when handling nonlinearities and sensor noise. To overcome these challenges, this study proposes a hybrid model that integrates EKF with Long Short-Term Memory (LSTM) networks and multi-head attention mechanisms to leverage temporal dependencies for improved future state prediction. Additionally, a Genetic algorithm (GA) is employed to optimize the process noise covariance matrix (Q), enhancing the adaptability of the EKF. The inclusion of 1D convolutional (Conv1D) layers enables effective feature extraction from accelerometer and gyroscope data, further boosting estimation accuracy. Compared to conventional EKF techniques, the proposed hybrid EKF-LSTM model augmented with attention and GA optimized Q achieves substantial reductions in Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and Mean Absolute Error (MAE), offering a robust and reliable solution for navigation in dynamic and noisy environments.}
@@ -2008,7 +2728,7 @@
       \endverb
       \keyw{/unread,Extended Kalman Filter (EKF),forecasting,genetic algorithm,Long-Short Term Memory (LSTM),state estimators,time series}
     \endentry
-    \entry{XuDaXingXuJiaShuJuZhuRuGongJiXiaRongHeGaoJieRongJiQiaErManLuBoYuChangDuanJiYiWangLuoDePeiDianWangDongTaiZhuangTaiGuJi2025}{article}{}{}
+    \entry{XuDaXingXuJiaShuJuZhuRuGongJiXiaRongHeGaoJieRongJiQiaErManLuBoYuChangDuanJiYiWangLuoDePeiDianWangDongTaiZhuangTaiGuJi2025}{online}{}{}
       \name{author}{6}{}{%
         {{hash=78cbaa0c5e82479ce7bd8b3b1b291e31}{%
            family={{许大星}},
@@ -2064,24 +2784,20 @@
       \strng{nameanamehash}{3dbaf18f1b39708515e54e4767960563}
       \strng{nameafullhash}{0bd4ada0df88ae27be5dbcbad81851c2}
       \strng{nameafullhashraw}{0bd4ada0df88ae27be5dbcbad81851c2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{配电网动态状态估计是保障电力物理信息系统安全稳定运行的关键技术，但系统的强非线性、高维特性及虚假数据注入攻击(FDIA)严重制约了其精度与安全。针对上述问题，该文提出一种融合高阶容积卡尔曼滤波(HCKF)与长短期记忆网络(LSTM)的动态状态估计方法。首先，建立基于混合量测的配电系统状态估计模型，并利用HCKF通过高阶容积点生成策略提升对强非线性高维配电网的状态估计精度；其次，结合加权最小二乘法(WLS)与HCKF的状态估计值，基于残差分析实现FDIA的快速检测；最后，当检测到FDIA时，利用LSTM模型对受攻击节点的量测数据进行时序预测与重构，修正状态估计结果。在IEEE33节点配电系统上的实验表明，在无FDIA时基于HCKF的动态状态估计算法对电压幅值和相角的估计精度高于现有方法。在FDIA场景下，验证了基于残差分析的攻击检测方法、基于LSTM的量测数据预测，以及所提动态状态估计算法的有效性。}
       \field{annotation}{Fund: 国家自然科学基金(62441311)； 衢州市科技计划项目(2025K206)；}
-      \field{day}{17}
-      \field{journaltitle}{电子与信息学报}
       \field{langid}{chinese}
       \field{languageid}{chinese}
       \field{lansortorder}{1}
-      \field{month}{12}
-      \field{pubstate}{advance online publication}
       \field{title}{虚假数据注入攻击下融合高阶容积卡尔曼滤波与长短记忆网络的配电网动态状态估计}
       \field{urlday}{3}
       \field{urlmonth}{5}
       \field{urlyear}{2026}
-      \field{usera}{J}
+      \field{usera}{EB}
       \field{userd}{chinese}
       \field{userf}{chinese}
       \field{year}{2025}
@@ -2168,8 +2884,8 @@
       \strng{nameanamehash}{26b19209fb2465ce30a004f1c36e021e}
       \strng{nameafullhash}{f0e47b528e000b8eea5f6dee356cb37a}
       \strng{nameafullhashraw}{f0e47b528e000b8eea5f6dee356cb37a}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{For various target tracking applications, it is well known that the Kalman filter is the optimal estimator(in the minimum mean-square sense) to predict and estimate the state(position and/or velocity) of linear dynamical systems driven by Gaussian stochastic noise. In the case of nonlinear systems, Extended Kalman filter(EKF) and/or Unscented Kalman filter(UKF) are widely used, which can be viewed as approximations of the(linear) Kalman filter in the sense of the conditional expectation. However, to implement EKF and UKF, the exact dynamical model information and the statistical information of noise are still required. In this paper, we propose the recurrent neural-network based Kalman filter, where its Kalman gain is obtained via the proposed GRU-LSTM based neural-network framework that does not need the precise model information as well as the noise covariance information. By the proposed neural-network based Kalman filter, the state estimation performance is enhanced in terms of the tracking error, which is verified through various linear and nonlinear tracking problems with incomplete model and statistical covariance information.}
@@ -2197,129 +2913,78 @@
       \endverb
       \keyw{/unread}
     \endentry
-    \entry{zhaoRealtimeConcentrationDetection2024}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=634c37c1c06c4c4e2fe607d028f0eb13}{%
-           family={Zhao},
-           familyi={Z\bibinitperiod},
-           given={Fengyu},
-           giveni={F\bibinitperiod}}}%
-        {{hash=054b420c0df050e7b7e60aeaf6c1b99c}{%
-           family={Gao},
-           familyi={G\bibinitperiod},
-           given={Wei},
-           giveni={W\bibinitperiod}}}%
-        {{hash=061d769e0d5f39cb1bccf5ebe95d6e74}{%
-           family={Lu},
+    \entry{EstimationApplicationsTracking}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=a01ea5a6fd3b000f4e53c2b816b56101}{%
+           family={Bar-Shalom},
+           familyi={B\bibinithyphendelim S\bibinitperiod},
+           given={Yaakov},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=2cca97167d316f121e8e9f74497eca15}{%
+           family={Li},
            familyi={L\bibinitperiod},
-           given={Jianxin},
-           giveni={J\bibinitperiod}}}%
-        {{hash=a07c23630938f50ee26bb98a6be8dd7b}{%
-           family={Jiang},
-           familyi={J\bibinitperiod},
-           given={Haipeng},
-           giveni={H\bibinitperiod}}}%
-        {{hash=a7cc18729601a88570381eea3cc1fa5f}{%
-           family={Shi},
-           familyi={S\bibinitperiod},
-           given={Jihao},
-           giveni={J\bibinitperiod}}}%
+           given={X.\bibnamedelimi Rong},
+           giveni={X\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=994eb6b343bb55a0df53333ef56b95fe}{%
+           family={Kirubarajan},
+           familyi={K\bibinitperiod},
+           given={Thiagalingam},
+           giveni={T\bibinitperiod}}}%
       }
-      \name{namea}{5}{}{%
-        {{hash=634c37c1c06c4c4e2fe607d028f0eb13}{%
-           family={Zhao},
-           familyi={Z\bibinitperiod},
-           given={Fengyu},
-           giveni={F\bibinitperiod}}}%
-        {{hash=054b420c0df050e7b7e60aeaf6c1b99c}{%
-           family={Gao},
-           familyi={G\bibinitperiod},
-           given={Wei},
-           giveni={W\bibinitperiod}}}%
-        {{hash=061d769e0d5f39cb1bccf5ebe95d6e74}{%
-           family={Lu},
+      \name{namea}{3}{}{%
+        {{hash=a01ea5a6fd3b000f4e53c2b816b56101}{%
+           family={Bar-Shalom},
+           familyi={B\bibinithyphendelim S\bibinitperiod},
+           given={Yaakov},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=2cca97167d316f121e8e9f74497eca15}{%
+           family={Li},
            familyi={L\bibinitperiod},
-           given={Jianxin},
-           giveni={J\bibinitperiod}}}%
-        {{hash=a07c23630938f50ee26bb98a6be8dd7b}{%
-           family={Jiang},
-           familyi={J\bibinitperiod},
-           given={Haipeng},
-           giveni={H\bibinitperiod}}}%
-        {{hash=a7cc18729601a88570381eea3cc1fa5f}{%
-           family={Shi},
-           familyi={S\bibinitperiod},
-           given={Jihao},
-           giveni={J\bibinitperiod}}}%
+           given={X.\bibnamedelimi Rong},
+           giveni={X\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=994eb6b343bb55a0df53333ef56b95fe}{%
+           family={Kirubarajan},
+           familyi={K\bibinitperiod},
+           given={Thiagalingam},
+           giveni={T\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {english}%
       }
-      \strng{namehash}{3ddcc636adc30d965cb63e846fabc095}
-      \strng{fullhash}{1a913e304c8f5a485479c6a0a1984d93}
-      \strng{fullhashraw}{1a913e304c8f5a485479c6a0a1984d93}
-      \strng{bibnamehash}{3ddcc636adc30d965cb63e846fabc095}
-      \strng{authorbibnamehash}{3ddcc636adc30d965cb63e846fabc095}
-      \strng{authornamehash}{3ddcc636adc30d965cb63e846fabc095}
-      \strng{authorfullhash}{1a913e304c8f5a485479c6a0a1984d93}
-      \strng{authorfullhashraw}{1a913e304c8f5a485479c6a0a1984d93}
-      \strng{nameabibnamehash}{3ddcc636adc30d965cb63e846fabc095}
-      \strng{nameanamehash}{3ddcc636adc30d965cb63e846fabc095}
-      \strng{nameafullhash}{1a913e304c8f5a485479c6a0a1984d93}
-      \strng{nameafullhashraw}{1a913e304c8f5a485479c6a0a1984d93}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{b3b419cabbc56ab43a9fa8f0befc850d}
+      \strng{fullhash}{b3b419cabbc56ab43a9fa8f0befc850d}
+      \strng{fullhashraw}{b3b419cabbc56ab43a9fa8f0befc850d}
+      \strng{bibnamehash}{b3b419cabbc56ab43a9fa8f0befc850d}
+      \strng{authorbibnamehash}{b3b419cabbc56ab43a9fa8f0befc850d}
+      \strng{authornamehash}{b3b419cabbc56ab43a9fa8f0befc850d}
+      \strng{authorfullhash}{b3b419cabbc56ab43a9fa8f0befc850d}
+      \strng{authorfullhashraw}{b3b419cabbc56ab43a9fa8f0befc850d}
+      \strng{nameabibnamehash}{b3b419cabbc56ab43a9fa8f0befc850d}
+      \strng{nameanamehash}{b3b419cabbc56ab43a9fa8f0befc850d}
+      \strng{nameafullhash}{b3b419cabbc56ab43a9fa8f0befc850d}
+      \strng{nameafullhashraw}{b3b419cabbc56ab43a9fa8f0befc850d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Kalman filter algorithms have been widely used in dust environment concentration detection systems. However, in industrial environments, methods such as KF and median filtering usually require about 10\,s of detection time, which cannot meet the requirements of online real-time detection. For this reason, this present study proposes a framework that combines a gated recirculation unit (GRU) with the KF method to achieve online real-time detection of dust concentration. In this framework, the GRU is mainly responsible for handling dynamic and nonlinear characteristics and capturing instantaneous concentration trends. On the other hand, the Kalman filter utilizes its superior state estimation capability to provide more accurate system state estimation by fusing real-time predictions from GRU and sensor measurements. The results show that the KFGRU method is superior to the conventional linear filtering method with a response time of less than 2\,s and can detect dust concentration online in real-time. In terms of prediction accuracy, the deviation value of the curve processed by the KFGRU method is only 0.334, which is a significant breakthrough compared with the Kalman filter algorithm 0.755, the sliding average method 0.843, and the median filter method 0.849 (the smaller the deviation value, the higher the prediction accuracy). This study provides a comprehensive and innovative approach for dust concentration monitoring in dust reduction and explosion suppression systems, which not only meets the real-time requirement but also makes important progress in explosion safety management. This will provide more reliable and advanced technical support for dust control and safety in industrial production processes.}
-      \field{day}{1}
-      \field{issn}{0957-5820}
-      \field{journaltitle}{Process Safety and Environmental Protection}
       \field{langid}{english}
       \field{languageid}{english}
       \field{lansortorder}{4}
-      \field{month}{9}
-      \field{shortjournal}{Process Safety and Environmental Protection}
-      \field{title}{Real-Time Concentration Detection of {{Al}} Dust Using {{GRU-based Kalman}} Filtering Approach}
-      \field{urlday}{3}
-      \field{urlmonth}{5}
-      \field{urlyear}{2026}
-      \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
-      \field{volume}{189}
-      \field{year}{2024}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{154\bibrangedash 163}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1016/j.psep.2024.06.052
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0957582024007365
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0957582024007365
-      \endverb
-      \keyw{/unread,Explosion prevention,High-concentration dust detection,Machine learning,Metal dust}
-    \endentry
-    \entry{EstimationApplicationsTracking}{online}{}{}
-      \list{language}{1}{%
-        {english}%
-      }
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labeltitlesource}{title}
-      \field{langid}{english}
-      \field{languageid}{english}
-      \field{lansortorder}{4}
-      \field{title}{Estimation with {{Applications}} to {{Tracking}} and {{Navigation}} | {{Wiley Online Books}}}
+      \field{title}{Estimation with {{Applications}} to {{Tracking}} and {{Navigation}}: {{Theory}}, {{Algorithms}} and {{Software}}}
       \field{urlday}{2}
       \field{urlmonth}{5}
       \field{urlyear}{2026}
-      \field{usera}{EB}
+      \field{usera}{M}
       \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2001}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://onlinelibrary.wiley.com/doi/book/10.1002/0471221279
@@ -2328,82 +2993,6 @@
       \verb https://onlinelibrary.wiley.com/doi/book/10.1002/0471221279
       \endverb
       \keyw{/unread}
-    \endentry
-    \entry{julierUnscentedFilteringNonlinear2004}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=4d970a698b1a95a744e062b40d63acf3}{%
-           family={Julier},
-           familyi={J\bibinitperiod},
-           given={S.J.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=9742c3d48a7a72fc4a306264f44ad3d9}{%
-           family={Uhlmann},
-           familyi={U\bibinitperiod},
-           given={J.K.},
-           giveni={J\bibinitperiod}}}%
-      }
-      \name{namea}{2}{}{%
-        {{hash=4d970a698b1a95a744e062b40d63acf3}{%
-           family={Julier},
-           familyi={J\bibinitperiod},
-           given={S.J.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=9742c3d48a7a72fc4a306264f44ad3d9}{%
-           family={Uhlmann},
-           familyi={U\bibinitperiod},
-           given={J.K.},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {english}%
-      }
-      \strng{namehash}{35de1a223c7aa5caeca1d7e14b633e66}
-      \strng{fullhash}{35de1a223c7aa5caeca1d7e14b633e66}
-      \strng{fullhashraw}{35de1a223c7aa5caeca1d7e14b633e66}
-      \strng{bibnamehash}{35de1a223c7aa5caeca1d7e14b633e66}
-      \strng{authorbibnamehash}{35de1a223c7aa5caeca1d7e14b633e66}
-      \strng{authornamehash}{35de1a223c7aa5caeca1d7e14b633e66}
-      \strng{authorfullhash}{35de1a223c7aa5caeca1d7e14b633e66}
-      \strng{authorfullhashraw}{35de1a223c7aa5caeca1d7e14b633e66}
-      \strng{nameabibnamehash}{35de1a223c7aa5caeca1d7e14b633e66}
-      \strng{nameanamehash}{35de1a223c7aa5caeca1d7e14b633e66}
-      \strng{nameafullhash}{35de1a223c7aa5caeca1d7e14b633e66}
-      \strng{nameafullhashraw}{35de1a223c7aa5caeca1d7e14b633e66}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The extended Kalman filter (EKF) is probably the most widely used estimation algorithm for nonlinear systems. However, more than 35 years of experience in the estimation community has shown that is difficult to implement, difficult to tune, and only reliable for systems that are almost linear on the time scale of the updates. Many of these difficulties arise from its use of linearization. To overcome this limitation, the unscented transformation (UT) was developed as a method to propagate mean and covariance information through nonlinear transformations. It is more accurate, easier to implement, and uses the same order of calculations as linearization. This paper reviews the motivation, development, use, and implications of the UT.}
-      \field{issn}{1558-2256}
-      \field{journaltitle}{Proceedings of the IEEE}
-      \field{langid}{english}
-      \field{languageid}{english}
-      \field{lansortorder}{4}
-      \field{month}{3}
-      \field{number}{3}
-      \field{title}{Unscented Filtering and Nonlinear Estimation}
-      \field{urlday}{2}
-      \field{urlmonth}{5}
-      \field{urlyear}{2026}
-      \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
-      \field{volume}{92}
-      \field{year}{2004}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{401\bibrangedash 422}
-      \range{pages}{22}
-      \verb{doi}
-      \verb 10.1109/JPROC.2003.823141
-      \endverb
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/1271397
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/1271397
-      \endverb
-      \keyw{/unread,Chemical processes,Control systems,Filtering,Kalman filters,Navigation,Nonlinear control systems,Nonlinear systems,Particle tracking,Target tracking,Vehicles}
     \endentry
     \entry{YangZunLiGaiJinDeZiGuaYingKuoZhanQiaErManLuBoLeiDaMuBiaoGenZongSuanFa2024a}{article}{}{}
       \name{author}{5}{}{%
@@ -2455,8 +3044,8 @@
       \strng{nameanamehash}{9f404386ab3d96b9056d537cff8dc668}
       \strng{nameafullhash}{afee2bbd1d6cdadfbed068ee9d2c1566}
       \strng{nameafullhashraw}{afee2bbd1d6cdadfbed068ee9d2c1566}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{卡尔曼滤波是雷达目标跟踪场景最常用的目标状态跟踪估计算法，但针对非线性运动模型和噪声模型适配失配后，其滤波算法跟踪精度会出现下降。针对这些问题，提出一种机动目标场景下改进自适应扩展卡尔曼滤波的雷达目标跟踪算法，通过目标位置偏差范围来修正预测的位置信息，使用BP神经网络算法来自适应进行扩展卡尔曼滤波（extended kalman filter,EKF）算法预测信息结果的修正；根据噪声影响情况，提出基于实际情况可调的更新因子，用于进行修正后的EKF预测位置信息、测量信息和修正后的BP-EKF预测信息值的权重处理，基于优化模型，自适应选择最优的位置预测信息。仿真分析表明，所提出的算法在目标跟踪的滤波精度和稳定度都得到提升。}
@@ -2528,8 +3117,8 @@
       \strng{nameanamehash}{822cb36aa5b8cbe12fcec2a9e2c455b6}
       \strng{nameafullhash}{822cb36aa5b8cbe12fcec2a9e2c455b6}
       \strng{nameafullhashraw}{822cb36aa5b8cbe12fcec2a9e2c455b6}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{为了解决复杂非线性目标跟踪中状态空间模型参数不准确、滤波性能变差的问题，提出一种基于长短期记忆神经网络局部认知结构的最优非线性卡尔曼滤波.首先，在贝叶斯滤波框架下用长短期记忆神经网络认知卡尔曼增益这一组件，以数据驱动的方式逼近最优卡尔曼增益，不需要完全了解底层模型参数，可以在具有部分信息非线性状态下执行扩展卡尔曼滤波.其次，使用一种无监督离线训练算法，不需要提供真实数据，而是通过滤波器的可解释性，根据预测下一时刻观测的内部特征进行无监督损失函数计算.通过仿真验证表明，在非线性模型中的参数不准确时，提出的滤波器性能优于传统滤波器.}
@@ -2562,80 +3151,6 @@
       \verb https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2025&filename=GSGY202504012
       \endverb
       \keyw{/unread,扩展卡尔曼滤波,深度学习,数据驱动,长短期记忆神经网络}
-    \endentry
-    \entry{WangLuoJiYuGaiJinByteTrackSuanFaDeHongWaiDiMianDuoMuBiaoGenZongFangFa2023}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=ca4106ecdc260357d16f125c11bc261c}{%
-           family={{王雒}},
-           familyi={王\bibinitperiod}}}%
-        {{hash=a9c453203ec7617219245d98f024ad5e}{%
-           family={{李飚}},
-           familyi={李\bibinitperiod}}}%
-        {{hash=423c0d6bfc5ea9866befaa3db26d7ca0}{%
-           family={{傅瑞罡}},
-           familyi={傅\bibinitperiod}}}%
-      }
-      \name{namea}{3}{}{%
-        {{hash=ca4106ecdc260357d16f125c11bc261c}{%
-           family={{王雒}},
-           familyi={王\bibinitperiod}}}%
-        {{hash=a9c453203ec7617219245d98f024ad5e}{%
-           family={{李飚}},
-           familyi={李\bibinitperiod}}}%
-        {{hash=423c0d6bfc5ea9866befaa3db26d7ca0}{%
-           family={{傅瑞罡}},
-           familyi={傅\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {chinese}%
-      }
-      \strng{namehash}{cca16aeaf6ba04ccbf234dddf9bc85e3}
-      \strng{fullhash}{cca16aeaf6ba04ccbf234dddf9bc85e3}
-      \strng{fullhashraw}{cca16aeaf6ba04ccbf234dddf9bc85e3}
-      \strng{bibnamehash}{cca16aeaf6ba04ccbf234dddf9bc85e3}
-      \strng{authorbibnamehash}{cca16aeaf6ba04ccbf234dddf9bc85e3}
-      \strng{authornamehash}{cca16aeaf6ba04ccbf234dddf9bc85e3}
-      \strng{authorfullhash}{cca16aeaf6ba04ccbf234dddf9bc85e3}
-      \strng{authorfullhashraw}{cca16aeaf6ba04ccbf234dddf9bc85e3}
-      \strng{nameabibnamehash}{cca16aeaf6ba04ccbf234dddf9bc85e3}
-      \strng{nameanamehash}{cca16aeaf6ba04ccbf234dddf9bc85e3}
-      \strng{nameafullhash}{cca16aeaf6ba04ccbf234dddf9bc85e3}
-      \strng{nameafullhashraw}{cca16aeaf6ba04ccbf234dddf9bc85e3}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{红外目标智能检测跟踪技术研究一直是同领域中的热点问题，尤其是在精确制导、海面监视和天空预警等方面。针对红外地面多目标跟踪场景中，由地面杂波干扰、多目标遮挡干扰、平台晃动等复杂场景造成的跟踪精度降低等问题，提出了一种基于改进ByteTrack算法的红外地面多目标跟踪方法。首先引用一种自适应调制噪声尺度的卡尔曼滤波器，缓解低质量检测对vanilla卡尔曼滤波器的影响；其次引入增强相关系数最大化算法对帧间图像进行配准，来补偿平台晃动产生的影响；然后增加了基于长短期记忆网络的运动模型，减小了卡尔曼滤波在非线性运动状态中产生的预测误差；最后引入连接模型和高斯平滑算法这两种轻量级离线算法来完善跟踪结果。在红外地面多目标数据集上进行了实验，结果表明，与Sort和Deepsort算法相比，改进算法的MOTA值分别提升了8.3\%和10.2\%,IDF1值分别提升了6.5\%和5.6\%。与同类算法相比，改进算法表现出了更好的有效性，在红外目标智能检测跟踪场景中会有较大应用。}
-      \field{annotation}{original-container-title: Computer Science\\ foundation: 国家自然科学基金(62001482)； 湖南省自然科学基金(2021JJ40676)\textasciitilde\textasciitilde ；\\ download: 1005\\ album: 信息科技\\ CLC: TP391.41;TN219\\ dbcode: CJFQ\\ dbname: CJFDLAST2023\\ filename: JSJA202309023\\ publicationTag: 北大核心, JST, CSCD, WJCI\\ CIF: 2.817\\ AIF: 1.411}
-      \field{issn}{1002-137X}
-      \field{journaltitle}{计算机科学}
-      \field{langid}{chinese}
-      \field{languageid}{chinese}
-      \field{lansortorder}{1}
-      \field{number}{9}
-      \field{title}{基于改进ByteTrack算法的红外地面多目标跟踪方法}
-      \field{urlday}{28}
-      \field{urlmonth}{12}
-      \field{urlyear}{2025}
-      \field{usera}{J}
-      \field{userd}{chinese}
-      \field{userf}{chinese}
-      \field{volume}{50}
-      \field{year}{2023}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{176\bibrangedash 183}
-      \range{pages}{8}
-      \verb{file}
-      \verb H:\Literature\Official\storage\8NEATD7M\王雒 等 - 2023 - 基于改进ByteTrack算法的红外地面多目标跟踪方法.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2023&filename=JSJA202309023
-      \endverb
-      \verb{url}
-      \verb https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2023&filename=JSJA202309023
-      \endverb
-      \keyw{/unread,多目标跟踪,红外目标,卡尔曼滤波,长短期记忆网络,ByteTrack}
     \endentry
     \entry{WangSongFanGaoChaoShengSuDaoDanWangGeHuaLanJieZhanFaChuBuYanJiu2024}{article}{}{}
       \name{author}{4}{}{%
@@ -2714,6 +3229,80 @@
       \verb https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2024&filename=XDFJ202401001
       \endverb
       \keyw{/unread,导弹防御,分布式防御,高超声速导弹,轨迹预报,网格化拦截}
+    \endentry
+    \entry{WangLuoJiYuGaiJinByteTrackSuanFaDeHongWaiDiMianDuoMuBiaoGenZongFangFa2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=ca4106ecdc260357d16f125c11bc261c}{%
+           family={{王雒}},
+           familyi={王\bibinitperiod}}}%
+        {{hash=a9c453203ec7617219245d98f024ad5e}{%
+           family={{李飚}},
+           familyi={李\bibinitperiod}}}%
+        {{hash=423c0d6bfc5ea9866befaa3db26d7ca0}{%
+           family={{傅瑞罡}},
+           familyi={傅\bibinitperiod}}}%
+      }
+      \name{namea}{3}{}{%
+        {{hash=ca4106ecdc260357d16f125c11bc261c}{%
+           family={{王雒}},
+           familyi={王\bibinitperiod}}}%
+        {{hash=a9c453203ec7617219245d98f024ad5e}{%
+           family={{李飚}},
+           familyi={李\bibinitperiod}}}%
+        {{hash=423c0d6bfc5ea9866befaa3db26d7ca0}{%
+           family={{傅瑞罡}},
+           familyi={傅\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \strng{namehash}{cca16aeaf6ba04ccbf234dddf9bc85e3}
+      \strng{fullhash}{cca16aeaf6ba04ccbf234dddf9bc85e3}
+      \strng{fullhashraw}{cca16aeaf6ba04ccbf234dddf9bc85e3}
+      \strng{bibnamehash}{cca16aeaf6ba04ccbf234dddf9bc85e3}
+      \strng{authorbibnamehash}{cca16aeaf6ba04ccbf234dddf9bc85e3}
+      \strng{authornamehash}{cca16aeaf6ba04ccbf234dddf9bc85e3}
+      \strng{authorfullhash}{cca16aeaf6ba04ccbf234dddf9bc85e3}
+      \strng{authorfullhashraw}{cca16aeaf6ba04ccbf234dddf9bc85e3}
+      \strng{nameabibnamehash}{cca16aeaf6ba04ccbf234dddf9bc85e3}
+      \strng{nameanamehash}{cca16aeaf6ba04ccbf234dddf9bc85e3}
+      \strng{nameafullhash}{cca16aeaf6ba04ccbf234dddf9bc85e3}
+      \strng{nameafullhashraw}{cca16aeaf6ba04ccbf234dddf9bc85e3}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{红外目标智能检测跟踪技术研究一直是同领域中的热点问题，尤其是在精确制导、海面监视和天空预警等方面。针对红外地面多目标跟踪场景中，由地面杂波干扰、多目标遮挡干扰、平台晃动等复杂场景造成的跟踪精度降低等问题，提出了一种基于改进ByteTrack算法的红外地面多目标跟踪方法。首先引用一种自适应调制噪声尺度的卡尔曼滤波器，缓解低质量检测对vanilla卡尔曼滤波器的影响；其次引入增强相关系数最大化算法对帧间图像进行配准，来补偿平台晃动产生的影响；然后增加了基于长短期记忆网络的运动模型，减小了卡尔曼滤波在非线性运动状态中产生的预测误差；最后引入连接模型和高斯平滑算法这两种轻量级离线算法来完善跟踪结果。在红外地面多目标数据集上进行了实验，结果表明，与Sort和Deepsort算法相比，改进算法的MOTA值分别提升了8.3\%和10.2\%,IDF1值分别提升了6.5\%和5.6\%。与同类算法相比，改进算法表现出了更好的有效性，在红外目标智能检测跟踪场景中会有较大应用。}
+      \field{annotation}{original-container-title: Computer Science\\ foundation: 国家自然科学基金(62001482)； 湖南省自然科学基金(2021JJ40676)\textasciitilde\textasciitilde ；\\ download: 1005\\ album: 信息科技\\ CLC: TP391.41;TN219\\ dbcode: CJFQ\\ dbname: CJFDLAST2023\\ filename: JSJA202309023\\ publicationTag: 北大核心, JST, CSCD, WJCI\\ CIF: 2.817\\ AIF: 1.411}
+      \field{issn}{1002-137X}
+      \field{journaltitle}{计算机科学}
+      \field{langid}{chinese}
+      \field{languageid}{chinese}
+      \field{lansortorder}{1}
+      \field{number}{9}
+      \field{title}{基于改进ByteTrack算法的红外地面多目标跟踪方法}
+      \field{urlday}{28}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{usera}{J}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{volume}{50}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{176\bibrangedash 183}
+      \range{pages}{8}
+      \verb{file}
+      \verb H:\Literature\Official\storage\8NEATD7M\王雒 等 - 2023 - 基于改进ByteTrack算法的红外地面多目标跟踪方法.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2023&filename=JSJA202309023
+      \endverb
+      \verb{url}
+      \verb https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2023&filename=JSJA202309023
+      \endverb
+      \keyw{多目标跟踪,红外目标,卡尔曼滤波,长短期记忆网络,ByteTrack}
     \endentry
   \enddatalist
 \endrefsection
